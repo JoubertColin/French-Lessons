@@ -1,0 +1,447 @@
+/*Limpar formatações padrão*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 1em;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  background: #fff9e9;
+  /*fff9e9;*/
+  /*#caf3fd*/
+
+  /*background-image:  url("imagens/map2.png");
+  background-size: 1500px 750px;
+  background-repeat: no-repeat;
+  background-position: center;*/
+
+}
+
+
+/***** Layout *****/
+#header-area {
+  background-color: #3c7e99;
+  text-align: center;
+  margin-bottom: 40px;
+
+}
+
+#logo-area {
+  justify-content: center;
+  padding-top: 7.5px;
+  padding-bottom: 15px;
+  margin-top: 0;
+}
+
+#menu-area {
+  padding-bottom: 7.5px;
+  font-size: 1.1em;
+}
+
+#main-area {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.content:hover {
+  background: #ded24b;
+}
+
+.img2:hover {
+  background: #ded24b;
+
+}
+
+.content2 {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  width: 700px;
+}
+
+.content {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  width: 700px;
+}
+
+.content-new {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  width: 700px;
+}
+
+.resposta-box {
+  margin-top: 16px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  width: 700px;
+}
+
+/*.resposta-box button {
+  margin-top: 8px;
+  padding: 6px 12px;
+  border: none;
+  background: #007bff;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+/*.resposta-box button:hover {
+  background: #0056b3;
+}*/
+
+
+
+/* Outra caixa resposta:
+ .caixa-resposta {
+      width: 400px;
+      padding: 15px;
+      font-size: 16px;
+      border: 2px solid #3498db;
+      border-radius: 12px;
+      outline: none;
+      transition: all 0.3s ease;
+      resize: none; /* remove o redimensionamento do textarea 
+    }*/
+
+/* Efeito ao focar 
+    .caixa-resposta:focus {
+      border-color: #2980b9;
+      box-shadow: 0 0 8px rgba(52, 152, 219, 0.5);
+    }
+
+    /* Estilo do placeholder
+    .caixa-resposta::placeholder {
+      color: #7f8c8d;
+      font-style: italic;
+      opacity: 0.8;
+    }*/
+
+/*HTML caixa <textarea class="caixa-resposta" rows="5" placeholder="Digite sua resposta aqui..."></textarea>*/
+
+textarea {
+  width: 300px;
+  /* aumenta largura */
+  height: 64px;
+  /* aumenta altura */
+  font-size: 15px;
+  /* aumenta tamanho do texto do placeholder e do digitado */
+  padding: 8px;
+  /* espaço interno */
+
+}
+
+
+h4 {
+  color: #404042;
+  /*font-size: 0.8em;
+  text-align: center;
+  align-content: center;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;*/
+
+
+  font-size: 0.7em;
+  font-weight: bold;
+  text-align: justify;
+  color: #404042;
+  padding-right: 5px;
+  margin: 0;
+
+}
+
+div {
+  display: flex;
+  margin: 1px;
+  margin-left: 2px;
+
+
+  /* controla o espaço vertical */
+
+}
+
+.nada {
+  display: block;
+  margin: 1px;
+}
+
+.next {
+  width: 60%;
+  display: flex;
+  gap: 1.5em;
+
+  justify-content: center;
+  margin: auto;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 1.5em;
+}
+
+.par {
+  font-size: 1em;
+  font-weight: bold;
+  text-align: justify;
+  color: #404042;
+  padding-right: 5px;
+  margin: 0;
+}
+
+.par2 {
+  font-size: 1em;
+  font-weight: bold;
+  text-align: center;
+  color: #fff9e9;
+  padding-right: 5px;
+  margin: 0;
+
+
+}
+
+.par3 {
+  font-size: 0.7em;
+  font-weight: bold;
+  text-align: justify;
+  color: #404042;
+  padding-right: 2px;
+  margin-top: -10px;
+  width: 253px;
+  height: 16px;
+}
+
+.par4 {
+  font-size: 0.7em;
+  font-weight: bold;
+  text-align: justify;
+  color: #404042;
+  padding-right: 2px;
+  margin-top: 2px;
+  width: 253px;
+  height: 16px;
+}
+
+.elemento-clicavel {
+  cursor: pointer;
+  /*cursor: url('imagens/eiffel.svg'), auto;*/
+  /* Mude o cursor para a mãozinha */
+}
+
+img {
+  /*border: 4px solid #CCC;*/
+  /*margin-bottom: 4px;*/
+  margin-left: 1px;
+  /*border-radius: 10px;*/
+  border-radius: 50px;
+}
+
+
+.content-blocks {
+  /*width: 60%;
+  display: flex;
+  /*gap: 1.5em;
+  justify-content: center;
+  /*margin: auto;
+  /*flex-direction: row;
+  /*flex-wrap: wrap;
+  margin-top: 1.5em;
+  padding: 0;*/
+  width: 60%;
+  display: flex;
+  gap: 0em;
+  justify-content: center;
+  text-align: center;
+  /*align-items: center;*/
+  margin: auto;
+  /*flex-direction: row;
+  flex-wrap: wrap;*/
+  margin-top: 3em;
+  margin-bottom: 1.5em;
+  padding-left: 2px;
+}
+
+.content-blocks2 {
+  width: 60%;
+  display: flex;
+  gap: 0em;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin: auto;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 0.7em;
+  padding-left: 2px;
+}
+
+.content-blocks3 {
+  /*width: 60%;
+  display: flex;
+  /*gap: 1.5em;
+  justify-content: center;
+  /*margin: auto;
+  /*flex-direction: row;
+  /*flex-wrap: wrap;
+  margin-top: 1.5em;
+  padding: 0;*/
+  width: 60%;
+  display: flex;
+  gap: 0em;
+  justify-content: center;
+  text-align: center;
+  /*align-items: center;*/
+  margin: auto;
+  /*flex-direction: row;
+  flex-wrap: wrap;*/
+  margin-top: 0.5em;
+  margin-bottom: 2em;
+  padding-left: 2px;
+}
+
+
+/***** Formatação do menu *****/
+a {
+  text-decoration: none;
+}
+
+a:link,
+a:visited {
+  color: #f7b600;
+}
+
+#header-area a:link,
+#header-area a:visited {
+  color: #fff;
+  padding: 8px 12px;
+  font-weight: bold;
+}
+
+#header-area a:hover {
+  color: #f7b600;
+  background: #FFF;
+  text-decoration: none;
+}
+
+/***** Formatações em geral *****/
+h1 {
+  color: #fff9e9;
+  /**/
+  font-size: 2.5em;
+  text-align: center;
+}
+
+h2 {
+  color: #3c7e99;
+  font-size: 1.5em;
+  text-align: center;
+  padding-bottom: 6px;
+  margin-top: 40px;
+
+
+}
+
+
+
+.title {
+  color: #fff;
+  font-size: 0.8em;
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-family: "Vast Shadow", serif;
+  font-weight: 550;
+  font-style: bold;
+  text-decoration: none;
+}
+
+h3 {
+  color: #fff;
+  font-size: 1.7em;
+  padding: 5px;
+}
+
+
+/*modificadores, melhor jeito de reutilizar código. Se os elementos são iguais e você só quer alterar detalhes
+use modificadores*/
+
+.cyan-06 {
+  background-color: #79b5c4;
+  padding: 0.6em 0.6em 0.3em 0.6em;
+}
+
+.cyan-silaba {
+  background-color: #79b5c4;
+  padding: 0.6em 0.6em 0.3em 0.6em;
+  margin-bottom: 0px;
+}
+
+.orange {
+  background: #fba759;
+}
+
+.blue {
+  background: #4f9ec9;
+}
+
+.green {
+  background: #769d45;
+}
+
+.pink {
+  background: #ce83a4;
+}
+
+.cyan {
+  background: #79b5c4;
+}
+
+/*small monitor desktop and up*/
+@media only screen and (min-width: 64em) {
+  .postagem2 {
+    width: 50%;
+  }
+
+  .content-blocks {
+    width: 90%;
+  }
+
+  .content-blocks2 {
+    width: 90%;
+  }
+
+}
+
+/*tablets*/
+@media only screen and (min-width: 40em) and (max-width: 63em) {
+  .postagem2 {
+    width: 90%;
+  }
+
+  .content-blocks {
+    /*justify-content: space-evenly;*/
+    width: 90%;
+  }
+
+  .content-blocks2 {
+    width: 90%;
+  }
+}
+
+/*cell phones*/
+@media only screen and (max-width: 39em) {
+  .postagem2 {
+    width: 50%;
+  }
+
+  .content-blocks {
+    width: 80%;
+  }
+
+  .content-blocks2 {
+    width: 80%;
+  }
+}
