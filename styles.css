@@ -42,6 +42,8 @@ body {
   background: #FCF2FB;
 }
 
+
+
 textarea2 {
   width: 300px;
   height: 64px;
@@ -137,6 +139,7 @@ div {
   cursor: pointer;
   /*cursor: url('imagens/eiffel.svg'), auto;*/
   /* Mude o cursor para a mãozinha */
+
 }
 
 img {
@@ -183,16 +186,22 @@ img {
   margin: auto;
   margin-bottom: 0.9em;
   padding-left: 2px;
+  align-items: center;
+
+
 }
 
 .content-blocks2 {
-  width: 60%;
+  width: 350px;
   display: flex;
   gap: 0em;
   justify-content: center;
   text-align: center;
+  align-items: center;
   margin: auto;
-  /*margin-top: 0.7em;*/
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 0.7em;
   padding-left: 2px;
 }
 
@@ -242,15 +251,17 @@ img {
   color: #03467c;
 }
 
+
 /*   modelo de caixa de entrada de texto */
 
 /* Modelo 1 - Simples e Limpo */
 .modelo1 {
-  width: 300px;
+  width: 80%;
+  height: 15px;
   padding: 2px 15px;
   border: 2px solid #93b3bf;
   border-radius: 8px;
-  font-size: 16px;
+  font-size: 14px;
   transition: 0.3s;
   background-color: #f5f5f5;
   color: #276b85;
@@ -294,8 +305,9 @@ h2 {
   color: #3c7e99;
   font-size: 1.5em;
   text-align: center;
-  padding-bottom: 6px;
+  padding-bottom: 40px;
   margin-top: 40px;
+
 }
 
 .title {
@@ -348,26 +360,26 @@ use modificadores*/
 /*@media only screen and (min-width: 64em) {
 
   .content-blocks {
-    width: 90%;
+    width: 80%;
   }
 
   .content-blocks2 {
-    width: 90%;
+    width: 80%;
   }
 
   .content-blocks3 {
-    width: 90%;
+    width: 80%;
   }
 
   .content-blocks25 {
-    width: 90%;
+    width: 80%;
   }
 
   .content-blocks26 {
-    width: 90%;
+    width: 80%;
   }
 
-}
+}*/
 
 
 /*tablets*/
@@ -375,23 +387,23 @@ use modificadores*/
 
 
   .content-blocks {
-    width: 10%;
+    width: 80%;
   }
 
   .content-blocks2 {
-    width: 10%;
+    width: 80%;
   }
 
   .content-blocks3 {
-    width: 10%;
+    width: 80%;
   }
 
   .content-blocks25 {
-    width: 10%;
+    width: 80%;
   }
 
   .content-blocks26 {
-    width: 10%;
+    width: 80%;
   }
 
 }
@@ -400,22 +412,22 @@ use modificadores*/
 /*@media only screen and (max-width: 39em) {
 
   .content-blocks {
-    width: 50%;
+    width: 80%;
   }
 
   .content-blocks2 {
-    width: 50%;
+    width: 80%;
   }
 
   .content-blocks3 {
-    width: 50%;
+    width: 80%;
   }
 
   .content-blocks25 {
-    width: 50%;
+    width: 80%;
   }
 
   .content-blocks26 {
-    width: 50%;
+    width: 80%;
   }
 }
