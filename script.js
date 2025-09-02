@@ -1,11 +1,11 @@
-/*// Obter a imagem e o áudio pelos seus IDs
+/*/ Obter a imagem e o áudio pelos seus IDs
 const imagem = document.getElementById('minhaImagem');
 const audio = document.getElementById('meuAudio');
 
 // Adicionar um listener de clique à imagem
 imagem.addEventListener('click', function () {
   audio.play(); // Reproduz o áudio ao clicar na imagem
-});*/
+});
 
 
 const imagens = document.querySelectorAll('.img-audio');
@@ -16,21 +16,22 @@ imagens.forEach(imagem => {
     const audio = new Audio(srcAudio);
     audio.play();
   });
-});
+});*/
 
 
-/*// Caixa de resposta
+// Caixa de resposta
 
 
-//function enviarResposta() {
+function enviarResposta() {
   const resposta = document.getElementById('resposta').value;
   if (resposta.trim() === "") {
     alert("Por favor, digite uma resposta.");
   } else {
     alert("Você respondeu: " + resposta);
   }
-}*/
 
+}
+/*
 // Outra maneira de transformar o texto em áudio
 
 
@@ -75,3 +76,27 @@ function falar() {
   utterance.rate = 0.9; // velocidade mais lenta para entender melhor
   synth.speak(utterance);
 }
+
+
+*/
+// Outro conversor
+
+const imagens = document.querySelectorAll('.img-audio');
+let audioAtual = null; // guarda o áudio que está tocando
+
+imagens.forEach(imagem => {
+  imagem.addEventListener('click', () => {
+    const srcAudio = imagem.getAttribute('data-audio');
+
+    // Se já existe áudio tocando
+    if (audioAtual && !audioAtual.paused) {
+      audioAtual.pause(); // pausa
+      audioAtual.currentTime = 0; // opcional: reinicia do início
+      audioAtual = null;
+    } else {
+      // Cria e toca o novo áudio
+      audioAtual = new Audio(srcAudio);
+      audioAtual.play();
+    }
+  });
+});
