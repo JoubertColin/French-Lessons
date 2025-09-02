@@ -7,24 +7,14 @@
 body {
   font-size: 1em;
   font-family: "Trebuchet MS", Helvetica, sans-serif;
-  background: #fff9e9;
-  /*fff9e9;*/
-  /*#caf3fd*/
-
-  /*background-image:  url("imagens/map2.png");
-  background-size: 1500px 750px;
-  background-repeat: no-repeat;
-  background-position: center;*/
-
+  background: #FFFCF5;
 }
-
 
 /***** Layout *****/
 #header-area {
   background-color: #3c7e99;
   text-align: center;
   margin-bottom: 40px;
-
 }
 
 #logo-area {
@@ -50,103 +40,17 @@ body {
 
 .img2:hover {
   background: #FCF2FB;
-
 }
 
-.content2 {
-  text-align: center;
-  margin: 0;
-  padding: 0;
-  width: 700px;
-}
-
-.content {
-  text-align: center;
-  margin: 0;
-  padding: 0;
-  width: 700px;
-}
-
-.content-new {
-  text-align: center;
-  margin: 0;
-  padding: 0;
-  width: 700px;
-}
-
-.resposta-box {
-  margin-top: 16px;
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 8px;
-  width: 700px;
-}
-
-/*.resposta-box button {
-  margin-top: 8px;
-  padding: 6px 12px;
-  border: none;
-  background: #007bff;
-  color: white;
-  border-radius: 6px;
-  cursor: pointer;
-}
-
-/*.resposta-box button:hover {
-  background: #0056b3;
-}*/
-
-
-
-/* Outra caixa resposta:
- .caixa-resposta {
-      width: 400px;
-      padding: 15px;
-      font-size: 16px;
-      border: 2px solid #3498db;
-      border-radius: 12px;
-      outline: none;
-      transition: all 0.3s ease;
-      resize: none; /* remove o redimensionamento do textarea 
-    }*/
-
-/* Efeito ao focar 
-    .caixa-resposta:focus {
-      border-color: #2980b9;
-      box-shadow: 0 0 8px rgba(52, 152, 219, 0.5);
-    }
-
-    /* Estilo do placeholder
-    .caixa-resposta::placeholder {
-      color: #7f8c8d;
-      font-style: italic;
-      opacity: 0.8;
-    }*/
-
-/*HTML caixa <textarea class="caixa-resposta" rows="5" placeholder="Digite sua resposta aqui..."></textarea>*/
-
-textarea {
+textarea2 {
   width: 300px;
-  /* aumenta largura */
   height: 64px;
-  /* aumenta altura */
   font-size: 15px;
-  /* aumenta tamanho do texto do placeholder e do digitado */
   padding: 8px;
-  /* espaço interno */
-
 }
-
 
 h4 {
   color: #404042;
-  /*font-size: 0.8em;
-  text-align: center;
-  align-content: center;
-  font-weight: bold;
-  font-family: Arial, Helvetica, sans-serif;*/
-
-
   font-size: 0.7em;
   font-weight: bold;
   text-align: justify;
@@ -160,27 +64,6 @@ div {
   display: flex;
   margin: 1px;
   margin-left: 2px;
-
-
-  /* controla o espaço vertical */
-
-}
-
-.nada {
-  display: block;
-  margin: 1px;
-}
-
-.next {
-  width: 60%;
-  display: flex;
-  gap: 1.5em;
-
-  justify-content: center;
-  margin: auto;
-  flex-direction: row;
-  flex-wrap: wrap;
-  margin-top: 1.5em;
 }
 
 .par {
@@ -199,30 +82,55 @@ div {
   color: #fff9e9;
   padding-right: 5px;
   margin: 0;
-
-
 }
 
-.par3 {
-  font-size: 0.7em;
+.par7 {
+  font-size: 1.2em;
   font-weight: bold;
   text-align: justify;
   color: #404042;
-  padding-right: 2px;
-  margin-top: -10px;
-  width: 253px;
-  height: 16px;
+  padding-right: 5px;
+  margin: 0;
 }
 
-.par4 {
-  font-size: 0.7em;
-  font-weight: bold;
+.par8 {
+  font-size: 1.2em;
   text-align: justify;
   color: #404042;
-  padding-right: 2px;
-  margin-top: 2px;
-  width: 253px;
-  height: 16px;
+  padding-right: 5px;
+  margin: 0;
+}
+
+.par9 {
+  font-size: 1.2em;
+  text-align: justify;
+  color: #fff;
+  padding: 15px;
+  margin: 0;
+  font-weight: bold;
+}
+
+.linha-separadora {
+  border-bottom: 2px solid #404042;
+  width: 350px;
+  height: 0;
+}
+
+.capa {
+  background-color: #fff;
+}
+
+/* Outra maneira de transformar texto em áudio */
+
+.palavra {
+  cursor: pointer;
+  padding: 2px 4px;
+  border-radius: 4px;
+  transition: background 0.2s;
+}
+
+.palavra:hover {
+  background: #ffe6b3;
 }
 
 .elemento-clicavel {
@@ -239,33 +147,57 @@ img {
   border-radius: 50px;
 }
 
+.botao {
+  background-color: transparent;
+  border-color: transparent;
+  cursor: pointer;
+}
+
+.content {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  width: 700px;
+}
+
+.content-new {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  width: 700px;
+}
+
+.content2 {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  width: 700px;
+}
 
 .content-blocks {
-  /*width: 60%;
-  display: flex;
-  /*gap: 1.5em;
-  justify-content: center;
-  /*margin: auto;
-  /*flex-direction: row;
-  /*flex-wrap: wrap;
-  margin-top: 1.5em;
-  padding: 0;*/
   width: 60%;
   display: flex;
   gap: 0em;
   justify-content: center;
   text-align: center;
-  /*align-items: center;*/
   margin: auto;
-  /*flex-direction: row;
-  flex-wrap: wrap;*/
-  margin-top: 3em;
-  margin-bottom: 1.5em;
+  margin-bottom: 0.9em;
   padding-left: 2px;
 }
 
 .content-blocks2 {
   width: 60%;
+  display: flex;
+  gap: 0em;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  /*margin-top: 0.7em;*/
+  padding-left: 2px;
+}
+
+.content-blocks25 {
+  width: 350px;
   display: flex;
   gap: 0em;
   justify-content: center;
@@ -278,35 +210,58 @@ img {
   padding-left: 2px;
 }
 
-.content-blocks3 {
-  /*width: 60%;
+.content-blocks26 {
+  width: 350px;
   display: flex;
-  /*gap: 1.5em;
+  gap: 0em;
   justify-content: center;
-  /*margin: auto;
-  /*flex-direction: row;
-  /*flex-wrap: wrap;
-  margin-top: 1.5em;
-  padding: 0;*/
+  text-align: center;
+  align-items: center;
+  margin: auto;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 0.7em;
+  background-color: #0b4c80;
+  border-radius: 25px;
+}
+
+.content-blocks3 {
   width: 60%;
   display: flex;
   gap: 0em;
   justify-content: center;
   text-align: center;
-  /*align-items: center;*/
   margin: auto;
-  /*flex-direction: row;
-  flex-wrap: wrap;*/
   margin-top: 0.5em;
   margin-bottom: 2em;
   padding-left: 2px;
 }
 
+.titulo {
+  font-size: 1.7em;
+  color: #03467c;
+}
+
+/*   modelo de caixa de entrada de texto */
+
+/* Modelo 1 - Simples e Limpo */
+.modelo1 {
+  width: 300px;
+  padding: 2px 15px;
+  border: 2px solid #93b3bf;
+  border-radius: 8px;
+  font-size: 16px;
+  transition: 0.3s;
+  background-color: #f5f5f5;
+  color: #276b85;
+}
+
+.modelo1:focus {
+  border-color: #eccf67;
+  outline: none;
+}
 
 /***** Formatação do menu *****/
-a {
-  text-decoration: none;
-}
 
 a:link,
 a:visited {
@@ -315,9 +270,10 @@ a:visited {
 
 #header-area a:link,
 #header-area a:visited {
-  color: #fff;
+  color: #fff9e9;
   padding: 8px 12px;
   font-weight: bold;
+  text-decoration: none;
 }
 
 #header-area a:hover {
@@ -340,11 +296,7 @@ h2 {
   text-align: center;
   padding-bottom: 6px;
   margin-top: 40px;
-
-
 }
-
-
 
 .title {
   color: #fff;
@@ -357,13 +309,6 @@ h2 {
   font-style: bold;
   text-decoration: none;
 }
-
-h3 {
-  color: #fff;
-  font-size: 1.7em;
-  padding: 5px;
-}
-
 
 /*modificadores, melhor jeito de reutilizar código. Se os elementos são iguais e você só quer alterar detalhes
 use modificadores*/
@@ -400,48 +345,77 @@ use modificadores*/
 }
 
 /*small monitor desktop and up*/
-@media only screen and (min-width: 64em) {
-  .postagem2 {
-    width: 50%;
-  }
+/*@media only screen and (min-width: 64em) {
 
   .content-blocks {
     width: 90%;
   }
 
   .content-blocks2 {
+    width: 90%;
+  }
+
+  .content-blocks3 {
+    width: 90%;
+  }
+
+  .content-blocks25 {
+    width: 90%;
+  }
+
+  .content-blocks26 {
     width: 90%;
   }
 
 }
 
+
 /*tablets*/
-@media only screen and (min-width: 40em) and (max-width: 63em) {
-  .postagem2 {
-    width: 90%;
-  }
+/*@media only screen and (min-width: 40em) and (max-width: 63em) {
+
 
   .content-blocks {
-    /*justify-content: space-evenly;*/
-    width: 90%;
+    width: 10%;
   }
 
   .content-blocks2 {
-    width: 90%;
+    width: 10%;
   }
+
+  .content-blocks3 {
+    width: 10%;
+  }
+
+  .content-blocks25 {
+    width: 10%;
+  }
+
+  .content-blocks26 {
+    width: 10%;
+  }
+
 }
 
 /*cell phones*/
-@media only screen and (max-width: 39em) {
-  .postagem2 {
+/*@media only screen and (max-width: 39em) {
+
+  .content-blocks {
     width: 50%;
   }
 
-  .content-blocks {
-    width: 80%;
+  .content-blocks2 {
+    width: 50%;
   }
 
-  .content-blocks2 {
-    width: 80%;
+  .content-blocks3 {
+    width: 50%;
+  }
+
+  .content-blocks25 {
+    width: 50%;
+  }
+
+  .content-blocks26 {
+    width: 50%;
   }
 }
