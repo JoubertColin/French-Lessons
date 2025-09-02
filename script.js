@@ -30,3 +30,48 @@ imagens.forEach(imagem => {
     alert("Você respondeu: " + resposta);
   }
 }*/
+
+// Outra maneira de transformar o texto em áudio
+
+
+function parler(texte) {
+  const synth = window.speechSynthesis;
+  const utter = new SpeechSynthesisUtterance(texte);
+  utter.lang = "fr-FR"; // francês (França)
+  utter.rate = 0.75;       // Velocidade mais lenta (1 = normal)
+  synth.cancel();
+  synth.speak(utter);
+}
+
+document.querySelectorAll(".palavra").forEach(palavra => {
+  palavra.addEventListener("mouseenter", () => {
+    parler(palavra.textContent);
+  });
+});
+
+
+
+// ***** outro conversor ---->>> //
+
+let synth = window.speechSynthesis;
+let voices = [];
+let frenchVoice = null;
+
+function carregarVozes() {
+  voices = synth.getVoices();
+  frenchVoice = voices.find(v => v.lang.toLowerCase().startsWith("fr-fr"));
+}
+
+// alguns navegadores só carregam vozes após este evento
+synth.onvoiceschanged = carregarVozes;
+
+function falar() {
+  let texto = document.getElementById("texto").value;
+  if (!texto) return;
+
+  let utterance = new SpeechSynthesisUtterance(texto);
+  utterance.lang = "fr-FR";
+  utterance.voice = frenchVoice;
+  utterance.rate = 0.9; // velocidade mais lenta para entender melhor
+  synth.speak(utterance);
+}
