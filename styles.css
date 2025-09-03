@@ -1,141 +1,479 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Le français pour tous les âges!</title>
+/*Limpar formatações padrão*/
+* {
+  margin: 0;
+  padding: 0;
+  width: 0;
+}
 
-  <style>
-    @import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&display=swap');
-    @import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&family=Vast+Shadow&display=swap');
+body {
+  font-size: 1em;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  background: #FFFCF5;
+}
 
-    /* Reset */
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
+/***** Layout *****/
+#header-area {
+  background-color: #3c7e99;
+  text-align: center;
+  margin-bottom: 40px;
+}
 
-    body {
-      font-family: Arial, sans-serif;
-      line-height: 1.6;
-    }
+#logo-area {
+  justify-content: center;
+  padding-top: 7.5px;
+  padding-bottom: 15px;
+  margin-top: 0;
+}
 
-    header {
-      background: #0077cc;
-      color: white;
-      padding: 1rem;
-      text-align: center;
-    }
+#menu-area {
+  padding-bottom: 7.5px;
+  font-size: 1.1em;
+}
 
-    nav {
-      display: flex;
-      justify-content: center;
-      gap: 1rem;
-      background: #f4f4f4;
-      padding: 0.5rem;
-      flex-wrap: wrap; /* quebra linha em telas pequenas */
-    }
+#main-area {
+  width: 100%;
+  margin: 0 auto;
+}
 
-    nav a {
-      text-decoration: none;
-      color: #333;
-      font-weight: bold;
-    }
+.content:hover {
+  background: #FCF2FB;
+}
 
-    main {
-      display: flex;
-      justify-content: center;
-      flex-wrap: wrap;   /* permite quebra de linha */
-      padding: 1rem;
-      gap: 1rem;
-    }
+.img2:hover {
+  background: #FCF2FB;
+}
 
-    .card {
-      flex: 1 1 300px;   /* cresce, encolhe, mínimo 300px */
-      max-width: 600px;
-      padding: 1rem;
-      border: 2px solid #0077cc;
-      border-radius: 8px;
-      text-align: center;
-    }
 
-    .card img {
-      max-width: 100%;  /* imagem nunca ultrapassa o card */
-      height: auto;     /* mantém proporção */
-      margin: 0.5rem 0;
-    }
 
-    .par {
-      margin: 0.5rem 0;
-    }
+textarea2 {
+  width: 300px;
+  height: 64px;
+  font-size: 15px;
+  padding: 8px;
+}
 
-    footer {
-      background: #222;
-      color: white;
-      text-align: center;
-      padding: 1rem;
-      margin-top: 1rem;
-    }
+h4 {
+  color: #404042;
+  font-size: 0.7em;
+  font-weight: bold;
+  text-align: justify;
+  color: #404042;
+  padding-right: 5px;
+  margin: 0;
 
-    /* Melhorando leitura em telas pequenas */
-    @media (max-width: 500px) {
-      header h1 {
-        font-size: 1.2rem;
-      }
-      .par {
-        font-size: 0.9rem;
-      }
-    }
-  </style>
-</head>
+}
 
-<body>
+div {
+  display: flex;
+  margin: 1px;
+  margin-left: 2px;
+}
 
-  <header>
-    <h1>Classes</h1>
-  </header>
+.par {
+  font-size: 1em;
+  font-weight: bold;
+  text-align: justify;
+  color: #404042;
+  padding-right: 5px;
+  margin: 0;
+}
 
-  <nav>
-    <a href="index.html">Home</a>
-    <a href="classes.html">Classes</a>
-    <a href="questionnaire.html">Questionnaire</a>
-  </nav>
+.par2 {
+  font-size: 1em;
+  font-weight: bold;
+  text-align: center;
+  color: #fff9e9;
+  padding-right: 5px;
+  margin: 0;
+}
 
-  <main>
-    <div class="card">
-      <img src="imagens/ufsc.jpg" alt="UFSC">
-      <img src="imagens/neti.png" alt="NETI">
+.par7 {
+  font-size: 1.2em;
+  font-weight: bold;
+  text-align: justify;
+  color: #404042;
+  padding-right: 5px;
+  margin: 0;
+}
 
-      <h2 class="titulo">BIENVENUE, ÉTUDIANTS !</h2>
-      <p class="par">Conheça nossos contatos e canais de comunicação:</p>
-      <hr>
+.par8 {
+  font-size: 1.2em;
+  text-align: justify;
+  color: #404042;
+  padding-right: 5px;
+  margin: 0;
+}
 
-      <p class="par"><a href="tel:4837212990">(48) 3721-2990</a> - Secretaria</p>
-      <hr>
+.par9 {
+  font-size: 1.2em;
+  text-align: justify;
+  color: #fff;
+  padding: 15px;
+  margin: 0;
+  font-weight: bold;
+}
 
-      <p class="par"><a href="https://www.neti.ufsc.br">www.neti.ufsc.br</a></p>
-      <p class="par"><a href="https://www.facebook.com/netiufsc">facebook.com/netiufsc</a></p>
-      <p class="par"><a href="https://www.instagram.com/neti.ufsc">instagram.com/neti.ufsc</a></p>
-      <hr>
+.linha-separadora {
+  border-bottom: 2px solid #404042;
+  width: 350px;
+  height: 0;
+}
 
-      <p class="par">E-mail geral do NETI-UNAPI:<br>neti@contato.ufsc.br</p>
-      <p class="par">Questões pedagógicas:<br>edu.net@contato.ufsc.br</p>
-      <hr>
+.capa {
+  background-color: #fff;
+}
 
-      <p class="par">Horário de atendimento:<br>Segunda a sexta-feira das 8h às 12h e das 13h às 17h</p>
-      <hr>
+/* Outra maneira de transformar texto em áudio */
 
-      <p class="par">Nosso Objetivo:<br>Contribuir para o processo de envelhecimento humano e protagonismo das pessoas idosas por meio da educação ao longo da vida e intergeracionalidade.</p>
-      <hr>
+.palavra {
+  cursor: pointer;
+  padding: 2px 4px;
+  border-radius: 4px;
+  transition: background 0.2s;
+}
 
-      <p class="par">NETI - Universidade Aberta para as Pessoas Idosas.<br>PROEX - Pró-Reitoria de Extensão.<br>UFSC - Universidade Federal de Santa Catarina.</p>
-    </div>
-  </main>
+.palavra:hover {
+  background: #ffe6b3;
+}
 
-  <footer>
-    <p>&copy; 2025 - UFSC</p>
-  </footer>
+.elemento-clicavel {
+  cursor: pointer;
+  /*cursor: url('imagens/eiffel.svg'), auto;*/
+  /* Mude o cursor para a mãozinha */
 
-</body>
-</html>
+}
+
+img {
+  /*border: 4px solid #CCC;*/
+  /*margin-bottom: 4px;*/
+  margin-left: 1px;
+  /*border-radius: 10px;*/
+  border-radius: 50px;
+}
+
+.botao {
+  background-color: transparent;
+  border-color: transparent;
+  cursor: pointer;
+}
+
+.content {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  width: 700px;
+}
+
+.content-new {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  width: 700px;
+}
+
+.content-blocks25 {
+  width: 350px;
+  display: flex;
+  gap: 0em;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin: auto;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 0.7em;
+  padding-left: 2px;
+}
+
+.content2 {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  width: 700px;
+}
+
+.content-novas {
+  font-weight: bold;
+}
+
+.content-classes {
+  width: 400px;
+  /*display: flex;
+  justify-content: flex-end;
+  gap: 0em;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 0.9em;
+  padding-left: 2px;
+  align-items: center;*/
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  padding: 1rem;
+
+
+}
+
+.content-blocks {
+  width: 60%;
+  display: flex;
+  gap: 0em;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 0.9em;
+  padding-left: 2px;
+  align-items: center;
+
+
+}
+
+
+.content-blocks2 {
+  width: 350px;
+  display: flex;
+  gap: 0em;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin: auto;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 0.7em;
+  padding-left: 2px;
+}
+
+.content-blocks25 {
+  width: 350px;
+  display: flex;
+  gap: 0em;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin: auto;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 0.7em;
+  padding-left: 2px;
+}
+
+.content-blocks26 {
+  width: 350px;
+  display: flex;
+  gap: 0em;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin: auto;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 0.7em;
+  background-color: #0b4c80;
+  border-radius: 25px;
+}
+
+.content-blocks3 {
+  width: 60%;
+  display: flex;
+  gap: 0em;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  margin-top: 0.5em;
+  margin-bottom: 2em;
+  padding-left: 2px;
+}
+
+.titulo {
+  font-size: 1.7em;
+  color: #03467c;
+}
+
+
+/*   modelo de caixa de entrada de texto */
+
+/* Modelo 1 - Simples e Limpo */
+.modelo1 {
+  width: 80%;
+  height: 15px;
+  padding: 2px 15px;
+  border: 2px solid #93b3bf;
+  border-radius: 8px;
+  font-size: 14px;
+  transition: 0.3s;
+  background-color: #f5f5f5;
+  color: #276b85;
+}
+
+.modelo1:focus {
+  border-color: #eccf67;
+  outline: none;
+}
+
+/***** Formatação do menu *****/
+
+a:link,
+a:visited {
+  color: #f7b600;
+}
+
+#header-area a:link,
+#header-area a:visited {
+  color: #fff9e9;
+  padding: 8px 12px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+#header-area a:hover {
+  color: #f7b600;
+  background: #FFF;
+  text-decoration: none;
+}
+
+/***** Formatações em geral *****/
+h1 {
+  color: #fff9e9;
+  /**/
+  font-size: 2.5em;
+  text-align: center;
+}
+
+h2 {
+  color: #3c7e99;
+  font-size: 1.5em;
+  text-align: center;
+  padding-bottom: 40px;
+  margin-top: 40px;
+
+}
+
+.title {
+  color: #fff;
+  font-size: 0.8em;
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-family: "Vast Shadow", serif;
+  font-weight: 550;
+  font-style: bold;
+  text-decoration: none;
+}
+
+/*modificadores, melhor jeito de reutilizar código. Se os elementos são iguais e você só quer alterar detalhes
+use modificadores*/
+
+.cyan-06 {
+  background-color: #79b5c4;
+  padding: 0.6em 0.6em 0.3em 0.6em;
+}
+
+.cyan-silaba {
+  background-color: #79b5c4;
+  padding: 0.6em 0.6em 0.3em 0.6em;
+  margin-bottom: 0px;
+}
+
+.orange {
+  background: #fba759;
+}
+
+.blue {
+  background: #4f9ec9;
+}
+
+.green {
+  background: #769d45;
+}
+
+.pink {
+  background: #ce83a4;
+}
+
+.cyan {
+  background: #79b5c4;
+}
+
+/*small monitor desktop and up*/
+/*@media only screen and (min-width: 64em) {
+
+  .content-blocks {
+    width: 80%;
+  }
+
+  .content-blocks2 {
+    width: 80%;
+  }
+
+  .content-blocks3 {
+    width: 80%;
+  }
+
+  .content-blocks25 {
+    width: 80%;
+  }
+
+  .content-blocks26 {
+    width: 80%;
+  }
+
+}*/
+
+
+/*tablets*/
+/*@media only screen and (min-width: 40em) and (max-width: 63em) {
+
+
+  .content-blocks {
+    width: 80%;
+  }
+
+  .content-blocks2 {
+    width: 80%;
+  }
+
+  .content-blocks3 {
+    width: 80%;
+  }
+
+  .content-blocks25 {
+    width: 80%;
+  }
+
+  .content-blocks26 {
+    width: 80%;
+  }
+
+}
+
+/*cell phones*/
+
+/*@media only screen and (max-width: 39em) {*/
+/*@media (max-width: 50px) {
+  .container {
+    grid-template-columns: 1fr;
+    /* só uma coluna no celular */
+/*  }
+}
+
+/*  .content-blocks {
+    width: 80%;
+  }
+
+  .content-blocks2 {
+    width: 80%;
+  }
+
+  .content-blocks3 {
+    width: 80%;
+  }
+
+  .content-blocks25 {
+    width: 80%;
+  }
+
+  .content-blocks26 {
+    width: 80%;
+  }
+}
