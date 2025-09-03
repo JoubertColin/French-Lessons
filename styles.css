@@ -42,6 +42,8 @@ body {
   background: #FCF2FB;
 }
 
+
+
 textarea2 {
   width: 300px;
   height: 64px;
@@ -108,12 +110,12 @@ div {
   padding: 15px;
   margin: 0;
   font-weight: bold;
-  background-color: #03467c;
-  border-radius: 20px;
 }
 
 .linha-separadora {
   border-bottom: 2px solid #404042;
+  width: 350px;
+  height: 0;
 }
 
 .capa {
@@ -137,6 +139,7 @@ div {
   cursor: pointer;
   /*cursor: url('imagens/eiffel.svg'), auto;*/
   /* Mude o cursor para a mãozinha */
+
 }
 
 img {
@@ -157,6 +160,7 @@ img {
   text-align: center;
   margin: 0;
   padding: 0;
+  width: 700px;
 }
 
 .content-new {
@@ -166,71 +170,10 @@ img {
   width: 700px;
 }
 
-.content2 {
-  text-align: center;
-  margin: 0;
-  padding: 0;
-  width: 700px;
-}
-
-.content-blocks {
-  width: 60%;
-  display: flex;
-  gap: 1.5em;
-  justify-content: center;
-  text-align: center;
-  margin: auto;
-  flex-direction: row;
-  flex-wrap: wrap;
-  margin-bottom: 0.9em;
-  padding-left: 2px;
-}
-
 .content-blocks25 {
-  width: 60%;
-  display: flex;
-  gap: 1.5em;
-  justify-content: center;
-  text-align: center;
-  margin: auto;
-  flex-direction: row;
-  flex-wrap: wrap;
-  margin-bottom: 0.9em;
-  padding-left: 2px;
-}
-
-.content-blocks26 {
-  width: 60%;
-  display: flex;
-  gap: 1.5em;
-  justify-content: center;
-  text-align: center;
-  margin: auto;
-  flex-direction: row;
-  flex-wrap: wrap;
-  margin-bottom: 0.9em;
-  padding-left: 2px;
-}
-
-
-
-.content-blocks2 {
-  width: 60%;
-  display: flex;
-  gap: 1.5em;
-  justify-content: center;
-  text-align: center;
-  margin: auto;
-  flex-direction: row;
-  flex-wrap: wrap;
-  padding-left: 2px;
-}
-
-.content-blocks250 {
   width: 350px;
-  /*350*/
   display: flex;
-  gap: 1.5em;
+  gap: 0em;
   justify-content: center;
   text-align: center;
   align-items: center;
@@ -241,10 +184,83 @@ img {
   padding-left: 2px;
 }
 
-.content-blocks260 {
+.content2 {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  width: 700px;
+}
+
+.content-novas {
+  font-weight: bold;
+}
+
+.content-classes {
+  width: 400px;
+  /*display: flex;
+  justify-content: flex-end;
+  gap: 0em;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 0.9em;
+  padding-left: 2px;
+  align-items: center;*/
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  padding: 1rem;
+
+
+}
+
+.content-blocks {
+  width: 60%;
+  display: flex;
+  gap: 0em;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 0.9em;
+  padding-left: 2px;
+  align-items: center;
+
+
+}
+
+
+.content-blocks2 {
   width: 350px;
   display: flex;
-  gap: 1.5em;
+  gap: 0em;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin: auto;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 0.7em;
+  padding-left: 2px;
+}
+
+.content-blocks25 {
+  width: 350px;
+  display: flex;
+  gap: 0em;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin: auto;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 0.7em;
+  padding-left: 2px;
+}
+
+.content-blocks26 {
+  width: 350px;
+  display: flex;
+  gap: 0em;
   justify-content: center;
   text-align: center;
   align-items: center;
@@ -259,12 +275,10 @@ img {
 .content-blocks3 {
   width: 60%;
   display: flex;
-  gap: 1.5em;
+  gap: 0em;
   justify-content: center;
   text-align: center;
   margin: auto;
-  flex-direction: row;
-  flex-wrap: wrap;
   margin-top: 0.5em;
   margin-bottom: 2em;
   padding-left: 2px;
@@ -275,15 +289,17 @@ img {
   color: #03467c;
 }
 
+
 /*   modelo de caixa de entrada de texto */
 
 /* Modelo 1 - Simples e Limpo */
 .modelo1 {
-  width: 300px;
+  width: 80%;
+  height: 15px;
   padding: 2px 15px;
   border: 2px solid #93b3bf;
   border-radius: 8px;
-  font-size: 16px;
+  font-size: 14px;
   transition: 0.3s;
   background-color: #f5f5f5;
   color: #276b85;
@@ -327,8 +343,9 @@ h2 {
   color: #3c7e99;
   font-size: 1.5em;
   text-align: center;
-  padding-bottom: 6px;
+  padding-bottom: 40px;
   margin-top: 40px;
+
 }
 
 .title {
@@ -378,62 +395,68 @@ use modificadores*/
 }
 
 /*small monitor desktop and up*/
-@media only screen and (min-width: 64em) {
+/*@media only screen and (min-width: 64em) {
 
   .content-blocks {
-    width: 85%;
+    width: 80%;
   }
 
   .content-blocks2 {
-    width: 85%;
+    width: 80%;
   }
 
   .content-blocks3 {
-    width: 85%;
+    width: 80%;
   }
 
   .content-blocks25 {
-    width: 85%;
+    width: 80%;
   }
 
   .content-blocks26 {
-    width: 85%;
+    width: 80%;
   }
 
-}
+}*/
 
 
 /*tablets*/
-@media only screen and (min-width: 40em) and (max-width: 63em) {
+/*@media only screen and (min-width: 40em) and (max-width: 63em) {
+
 
   .content-blocks {
-    justify-content: space-evenly;
+    width: 80%;
   }
 
   .content-blocks2 {
-    justify-content: space-evenly;
+    width: 80%;
   }
 
   .content-blocks3 {
-    justify-content: space-evenly;
+    width: 80%;
   }
 
   .content-blocks25 {
-    justify-content: space-evenly;
+    width: 80%;
   }
 
   .content-blocks26 {
-    justify-content: space-evenly;
+    width: 80%;
   }
 
 }
 
 /*cell phones*/
-@media only screen and (max-width: 39em) {
 
+/*@media only screen and (max-width: 39em) {*/
+/*@media (max-width: 50px) {
+  .container {
+    grid-template-columns: 1fr;
+    /* só uma coluna no celular */
+/*  }
+}
 
-
-  .content-blocks {
+/*  .content-blocks {
     width: 80%;
   }
 
