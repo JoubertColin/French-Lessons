@@ -463,11 +463,11 @@ use modificadores*/
 /*@media (max-width: 50px) {
   .container {
     grid-template-columns: 1fr;
-    /* só uma coluna no celular */
-/*  }
+    /* só uma coluna no celular 
+  }
 }
 
-/*  .content-blocks {
+  .content-blocks {
     width: 80%;
   }
 
@@ -485,5 +485,65 @@ use modificadores*/
 
   .content-blocks26 {
     width: 80%;
+  }
+}*/
+
+@media (max-width: 500px) {
+  /*  .container {
+    grid-template-columns: 1fr;
+    /* só uma coluna no celular */
+  /*  }
+}*/
+
+  /*  .content-blocks {
+    width: 80%;
+  }
+
+  .content-blocks2 {
+    width: 80%;
+  }
+
+  .content-blocks3 {
+    width: 80%;
+  }
+
+  .content-blocks25 {
+    width: 80%;
+  }
+
+  .content-blocks26 {
+    width: 80%;
+
+
+  }*/
+
+  #main-area {
+    width: 100%;
+  }
+
+  .content-blocks {
+    width: 90%;
+  }
+
+
+  #header-area {
+    width: 100%;
+  }
+
+  h2 {
+    font-size: 120%;
+  }
+
+
+  h1 {
+    font-size: 210%;
+  }
+
+  footer p {
+    font-size: 90%;
+  }
+
+  #menu-area a {
+    font-size: 90%;
   }
 }
