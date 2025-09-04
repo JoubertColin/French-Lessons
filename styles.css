@@ -289,6 +289,17 @@ img {
   color: #03467c;
 }
 
+footer {
+  background: #3c7e99;
+  color: #fff9e9;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+
 
 /*   modelo de caixa de entrada de texto */
 
