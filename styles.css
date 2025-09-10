@@ -53,6 +53,12 @@ body {
   background: #FCF2FB;
 }
 
+
+.card:hover {
+  background: #FCF2FB;
+}
+
+
 .container {
   display: grid;
   grid-template-columns: .1fr .1fr .1fr .1fr;
