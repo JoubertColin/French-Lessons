@@ -100,3 +100,26 @@ imagens.forEach(imagem => {
     }
   });
 });
+
+
+// QUIZ
+
+let pontos = 0;
+
+function verificarResposta(idInput) {
+  const input = document.getElementById(idInput);
+  const correta = input.dataset.correta.trim().toLowerCase();
+  const resposta = input.value.trim().toLowerCase();
+  const feedback = document.getElementById("fb" + idInput.replace("resp", ""));
+
+  if (resposta === correta && resposta !== "") {
+    pontos += 1.6667;
+    feedback.textContent = "✔";
+    feedback.className = "feedback certo";
+  } else {
+    feedback.textContent = "✘";
+    feedback.className = "feedback errado";
+  }
+
+  document.getElementById("pontos").textContent = pontos.toFixed(2);
+}
