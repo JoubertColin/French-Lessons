@@ -844,7 +844,7 @@ use modificadores*/
   td,
   tr {
     display: block;
-    /*    font-size: 95%;*/
+    font-size: 95%;
   }
 
   thead {
