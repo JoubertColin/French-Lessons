@@ -10,7 +10,6 @@
 /***** Layout *****/
 
 body {
-  font-size: 1em;
   font-family: "Trebuchet MS", Helvetica, sans-serif;
   background: #FFFCF5;
 }
@@ -18,19 +17,19 @@ body {
 #header-area {
   background-color: #3C7E99;
   text-align: center;
-  margin-bottom: 40px;
+  margin-bottom: 2.5rem;
 }
 
 #logo-area {
   justify-content: center;
-  padding-top: 7.5px;
-  padding-bottom: 15px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   margin-top: 0;
 }
 
 #menu-area {
-  padding-bottom: 7.5px;
-  font-size: 1.1em;
+  padding-bottom: 0.7rem;
+  font-size: 1.1rem;
 }
 
 #main-area {
@@ -49,7 +48,7 @@ a:visited {
 #header-area a:link,
 #header-area a:visited {
   color: #FFF9E9;
-  padding: 8px 12px;
+  padding: 0.5rem 0.75rem;
   font-weight: bold;
   text-decoration: none;
 }
@@ -65,28 +64,28 @@ a:visited {
 
 h1 {
   color: #FFF9E9;
-  font-size: 2.5em;
+  font-size: 2.3rem;
   text-align: center;
 }
 
 h2 {
   color: #3C7E99;
-  font-size: 2em;
+  font-size: 1.7rem;
   text-align: center;
-  padding: 10px 0px 10px;
+
 }
 
 h5 {
-  font-size: 1.5em;
-  padding: 10px 0px 10px;
+  font-size: 1.5rem;
+  padding: 1rem 0;
 }
 
 .title {
   color: #FFFFFF;
-  font-size: 0.8em;
+  font-size: 0.8rem;
   text-align: center;
-  margin-top: 5px;
-  margin-bottom: 5px;
+  margin-top: 0.4rem;
+  margin-bottom: 0.4rem;
   font-family: "Vast Shadow", serif;
   font-weight: 550;
   font-style: bold;
@@ -107,35 +106,29 @@ h5 {
 }
 
 .card {
-  padding: 0.23em;
-  border-radius: 10px;
+  padding: 0.25em;
+  border-radius: 0.7rem;
   text-align: center;
   font-weight: bold;
-  font-size: 2em;
+  font-size: 2rem;
   background-color: #FFF7E8;
   width: 4em;
   height: 4em;
   align-content: center;
-  box-shadow: 4px 4px 8px 1px rgba(0, 0, 0, 0.3);
+  box-shadow: 0.25rem 0.25rem 0.5rem 0.1rem #0000004d;
 }
 
 .imagem8 {
-  box-shadow: 4px 4px 6px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 5px;
+  box-shadow: 0.25rem 0.25rem 0.4rem 0.1rem #00000033;
+  border-radius: 0.3rem;
 }
 
 .cartao {
-  font-size: 0.45em;
+  font-size: 0.8rem;
   color: #0a445b;
   font-weight: bold;
   align-items: center;
-}
-
-.textarea2 {
-  width: 300px;
-  height: 64px;
-  font-size: 15px;
-  padding: 8px;
+  padding-top: 0.2rem;
 }
 
 .esquerda {
@@ -143,10 +136,10 @@ h5 {
 }
 
 .par {
-  font-size: 1.1em;
+  font-size: 1.1rem;
   text-align: justify;
   color: #272728;
-  padding-right: 5px;
+  padding-right: 0.2rem;
   margin: 0;
 }
 
@@ -155,19 +148,19 @@ h5 {
 }
 
 .par12 {
-  font-size: 1.1em;
+  font-size: 1.1rem;
   text-align: justify;
   color: #272728;
-  padding-right: 5px;
+  padding-right: 0.3rem;
   margin: 0;
 }
 
 .par9 {
 
-  font-size: 1.1em;
+  font-size: 1.1rem;
   text-align: justify;
   color: #000;
-  padding: 20px;
+  padding: 1.25rem;
   margin: 0;
   font-weight: bold;
 }
@@ -175,61 +168,65 @@ h5 {
 .fundo {
   background-color: #03467C;
   color: white;
-  padding: 10px;
-  border-radius: 10px;
+  padding: 0.6rem;
+  border-radius: 0.7rem;
   font-weight: bold;
 }
 
 
 .par33 {
-  padding-left: 5px;
+  padding-left: 0.3rem;
   text-align: start;
   color: #404042;
 }
 
 .espaco {
-  padding-top: 2em;
+  padding-top: 2rem;
 }
 
 .espaco2 {
-  padding-left: 1em;
+  padding-left: 1rem;
 }
 
 .espaco3 {
-  padding-top: 1em;
+  padding-top: 1rem;
 }
 
 .espaco4 {
-  padding-top: 1.5em;
+  padding-top: 1.5rem;
 }
 
 .espaco5 {
-  padding-left: 1.5em;
+  padding-left: 1.5rem;
 }
 
 .espaco6 {
-  padding-bottom: 1em;
+  padding-bottom: 1rem;
 }
 
 .espaco7 {
-  padding-top: 0.5em;
+  padding-top: 0.5rem;
 }
 
 .espaco8 {
-  padding-bottom: 1.5em;
+  padding-bottom: 1.5rem;
 }
 
 
 .espaco9 {
-  padding-left: 0.5em;
+  padding-left: 0.5rem;
 }
 
 .espaco10 {
-  padding-left: 0.2em;
+  padding-left: 0.2rem;
 }
 
 .espaco15 {
-  padding-bottom: 20px;
+  padding-bottom: 1.25rem;
+}
+
+.espaco18 {
+  padding-bottom: 0.4rem;
 }
 
 
@@ -238,15 +235,19 @@ h5 {
 
 
 .linha-separadora {
-  border-bottom: 2px solid #97979B;
-  width: 100%;
-  height: 0;
-  padding-top: 2px;
-  padding-bottom: 2px;
+  border-bottom: 0.12rem solid #97979B;
+  width: 50%;
+  height: auto;
+  margin-top: 0.4rem;
+  margin-bottom: 0.25rem;
 }
 
 .capa {
   background-color: #FFFFFF;
+}
+
+.wide {
+  width: 48%;
 }
 
 .elemento-clicavel {
@@ -256,29 +257,29 @@ h5 {
 }
 
 .imagem-01 {
-  margin-left: 1px;
-  border-radius: 50px;
+  margin-left: 0.1rem;
+  border-radius: 3.1rem;
 }
 
 .imagem-02 {
-  margin-left: 1px;
-  border-radius: 10px;
-  margin-bottom: 30px;
+  margin-left: 0.1rem;
+  border-radius: 0.6rem;
+  margin-bottom: 2rem;
 }
 
 
 
 .video {
-  box-shadow: 10px 10px 8px 1px #0000004d;
+  box-shadow: 0.6rem 0.6rem 0.5rem 0.1rem #0000004d;
   border-radius: 0%;
-  margin-bottom: 25px;
+  margin-bottom: 1.6rem;
 }
 
 .content {
   text-align: center;
   align-items: center;
 
-  margin: 1px;
+  margin: 0.1rem;
   padding: 0;
   width: 50%;
 }
@@ -286,7 +287,7 @@ h5 {
 .content50 {
   text-align: center;
   align-items: center;
-  margin: 1px;
+  margin: 0.1rem;
   padding: 0;
   width: 50%;
 }
@@ -294,33 +295,18 @@ h5 {
 
 div {
   display: flex;
-  margin: 1px;
-  margin-left: 2px;
+  margin: 0.1rem;
+  margin-left: 0.15rem;
 }
 
-
-.content2 {
-  text-align: center;
-  margin: 0;
-  padding: 0;
-  width: 50%;
-}
 
 .content33 {
   justify-content: center;
   text-align: center;
   align-items: center;
   margin: 0;
-  /*padding-right: 90px;*/
+  /*padding-right: 5.6rem;*/
   width: 100%;
-}
-
-.content34 {
-  text-align: center;
-  align-items: center;
-  margin: 0;
-  padding: 0;
-  width: 700px
 }
 
 .content36 {
@@ -328,9 +314,8 @@ div {
   text-align: center;
   align-items: center;
   margin: 0;
-  /*padding-right: 90px;*/
-  width: 500px;
-  height: 35px;
+  width: 80%;
+  height: auto;
 }
 
 .content37 {
@@ -338,16 +323,13 @@ div {
   text-align: center;
   align-items: center;
   align-content: left;
-
-
-  /*padding-right: 90px;*/
   width: 25%;
-  height: 22px;
+  height: auto;
 }
 
 
 .content-blocks {
-  width: 80%;
+  width: 90%;
   justify-content: center;
   margin: auto;
   margin-bottom: 0.3em;
@@ -355,10 +337,9 @@ div {
   align-content: center;
 }
 
-
 .content-blocks6 {
   width: 30%;
-  height: 22px;
+  height: 1.4rem;
   justify-content: left;
   margin: auto;
   margin-bottom: 0.3em;
@@ -384,73 +365,22 @@ div {
   margin-top: 0.7em;
 }
 
-.content-blocks3 {
-  width: 500px;
-  display: flex;
-  gap: 0em;
-  justify-content: center;
-  text-align: center;
-  align-items: center;
-  align-content: center;
-  margin: auto;
-  flex-direction: row;
-  flex-wrap: wrap;
-  margin-top: 0.7em;
-  padding-left: 2px;
-}
-
-.content-blocks25 {
-  width: 50%;
-  display: flex;
-  gap: 0em;
-  justify-content: center;
-  text-align: center;
-  align-items: center;
-  align-content: initial;
-  margin: auto;
-  flex-direction: row;
-  flex-wrap: wrap;
-  margin-top: 0.7em;
-  padding-left: 2px;
-}
-
-.content-blocks26 {
-  width: 25%;
-  display: flex;
-  gap: 0em;
-  justify-content: center;
-  text-align: center;
-  align-items: center;
-  margin: auto;
-  flex-direction: row;
-  flex-wrap: wrap;
-  margin-top: 0.7em;
-  background-color: #0B4C80;
-  border-radius: 25px;
-}
-
 .secao {
   justify-content: left;
   align-items: center;
 }
 
-.titulo {
-  font-size: 1.7em;
-  color: #03467C;
-}
-
 .altura {
-  height: 20px;
+  height: 1.25rem;
   padding-left: 2em;
-
 }
 
 .verb {
   text-align: left;
   background-color: #FFFF99;
-  padding: 10px;
-  box-shadow: 4px 4px 8px 1px #0000004d;
-  margin: 40px;
+  padding: 0.6rem;
+  box-shadow: 0.25rem 0.25rem 0.5rem 0.1rem #0000004d;
+  margin: 2.5rem;
   align-items: center;
 
 }
@@ -460,8 +390,8 @@ div {
 }
 
 .inicio {
-  margin-bottom: 25px;
-  box-shadow: 4px 4px 8px 1px #0000001a;
+  margin-bottom: 1.6rem;
+  box-shadow: 0.25rem 0.25rem 0.5rem 0.1rem #0000001a;
 }
 
 
@@ -515,11 +445,11 @@ footer {
 
 .modelo1 {
   width: 80%;
-  height: 20px;
-  padding: 2px 15px;
-  border: 2px solid #93B3BF;
-  border-radius: 8px;
-  font-size: 12px;
+  height: 1.25rem;
+  padding: 0.15rem 1rem;
+  border: 0.15rem solid #93B3BF;
+  border-radius: 0.5rem;
+  font-size: 0.75rem;
   transition: 0.3s;
   background-color: #F5F5F5;
   color: #276B85;
@@ -528,12 +458,12 @@ footer {
 
 .modelo3 {
   width: 55px;
-  height: 20px;
-  padding: 2px;
-  margin: 0px 8px;
-  border: 2px solid #93B3BF;
-  border-radius: 8px;
-  font-size: 12px;
+  height: 1.25rem;
+  padding: 0.15rem;
+  margin: 0 0.5rem;
+  border: 0.15rem solid #93B3BF;
+  border-radius: 0.5rem;
+  font-size: 0.75rem;
   font-weight: bold;
   transition: 0.3s;
   background-color: #F5F5F5;
@@ -543,11 +473,11 @@ footer {
 
 .modelo4 {
   width: 50%;
-  height: 20px;
-  padding: 2px 15px;
-  border: 2px solid #93B3BF;
-  border-radius: 8px;
-  font-size: 10px;
+  height: 1.25rem;
+  padding: 0.15rem 1rem;
+  border: 0.15rem solid #93B3BF;
+  border-radius: 0.5rem;
+  font-size: 0.75rem;
   font-weight: bold;
   transition: 0.3s;
   background-color: #F5F5F5;
@@ -556,11 +486,11 @@ footer {
 
 .modelo5 {
   width: 20%;
-  height: 20px;
-  padding: 2px 15px;
-  border: 2px solid #93B3BF;
-  border-radius: 8px;
-  font-size: 10px;
+  height: 1.25rem;
+  padding: 0.15rem 1rem;
+  border: 0.15rem solid #93B3BF;
+  border-radius: 0.5rem;
+  font-size: 0.75rem;
   font-weight: bold;
   transition: 0.3s;
   background-color: #F5F5F5;
@@ -568,11 +498,11 @@ footer {
 }
 
 .modelo6 {
-  width: 20px;
-  height: 20px;
-  padding: 2px;
+  width: 1.25rem;
+  height: 1.25rem;
+  padding: 0.15rem;
 
-  border: 2px solid #93B3BF;
+  border: 0.15rem solid #93B3BF;
 
   font-size: 1rem;
   font-weight: bold;
@@ -591,16 +521,16 @@ footer {
 /********* Quiz ********/
 
 .pergunta {
-  margin: 15px 0px;
-  padding-left: 10px;
+  margin: 1rem 0;
+  padding-left: 0.6rem;
   align-items: center;
-  margin-right: 25px;
+  margin-right: 1.6rem;
 }
 
 .feedback {
   font-weight: bold;
-  margin-left: 2px;
-  font-size: 25px;
+  margin-left: 0.15rem;
+  font-size: 1.5rem;
 }
 
 .certo {
@@ -613,15 +543,15 @@ footer {
 
 .btn {
   display: inline-block;
-  padding: 1px 0px 1px 1px;
-  width: 20px;
-  height: 20px;
+  padding: 0.1rem 0 0.1rem 0.1rem;
+  width: 1.25rem;
+  height: 1.25rem;
   font-weight: bold;
   border: none;
-  border-radius: 50px;
+  border-radius: 3.2rem;
   color: #FFFFFF;
   cursor: pointer;
-  margin-right: 5px;
+  margin-right: 0.3rem;
 }
 
 
@@ -630,13 +560,13 @@ footer {
 /*table {
   width: 100%;
   border-collapse: collapse;
-  margin: 15px 0px 25px 0px;
+  margin: 1rem 0 1.6rem 0;
 }
 
 th,
 td {
-  border: 1px solid #CCCCCC;
-  padding: 10px 10px;
+  border: 0.1rem solid #CCCCCC;
+  padding: 0.6rem 0.6rem;
   text-align: center;
   width: 350px;
 }
@@ -669,13 +599,13 @@ tr:hover {
 table {
   width: 100%;
   border-collapse: collapse;
-  margin-top: 20px;
+  margin-top: 1.25rem;
 }
 
 th,
 td {
-  border: 1px solid #ccc;
-  padding: 10px;
+  border: 0.1rem solid #ccc;
+  padding: 0.6rem;
   text-align: center;
 }
 
@@ -704,6 +634,12 @@ use modificadores*/
   color: #97979B;
 }
 
+
+.blue {
+  color: #03467C;
+}
+
+
 .indentacao {
   text-indent: 0.5em;
 }
@@ -721,7 +657,7 @@ use modificadores*/
 }
 
 .letra {
-  font-size: 12px;
+  font-size: 0.75rem;
 }
 
 .letra2 {
@@ -745,7 +681,7 @@ use modificadores*/
     width: 80%;
   }
 
-  .par33 {
+  /*  .par33 {
     font-size: 90%;
   }
 
@@ -756,16 +692,13 @@ use modificadores*/
 
   .par12 {
     font-size: 80%;
-    padding-bottom: 0px;
-  }
+    padding-bottom: 0;
+  }*/
 
   .content {
     width: 100%;
   }
 
-  .content2 {
-    width: 35%;
-  }
 
   .content-blocks45 {
     width: 95%;
@@ -781,22 +714,17 @@ use modificadores*/
 
   .content33 {
     width: 100%;
-    font-size: 80%;
-  }
-
-  .content34 {
-    width: 100%;
-    font-size: 80%;
+    /*  font-size: 80%;*/
   }
 
   .content36 {
     width: 100%;
-    font-size: 80%;
+    /*   font-size: 80%;*/
   }
 
   .content37 {
     width: 20%;
-    font-size: 80%;
+    /*   font-size: 80%;*/
   }
 
 
@@ -811,10 +739,6 @@ use modificadores*/
     width: 80%;
   }
 
-  .content-blocks3 {
-    width: 50%;
-  }
-
   .content-blocks6 {
     width: 90%;
   }
@@ -827,13 +751,13 @@ use modificadores*/
   }
 
   h2 {
-    font-size: 160%;
+    /*  font-size: 160%;*/
     margin: 1rem 0;
   }
 
 
 
-  h1 {
+  /*  h1 {
     font-size: 180%;
   }
 
@@ -843,24 +767,25 @@ use modificadores*/
 
   footer p {
     font-size: 90%;
-  }
+  }*/
 
   footer {
     margin-top: 3rem;
   }
 
-  #menu-area a {
+  /*  #menu-area a {
     font-size: 90%;
-  }
+  }*/
 
   .container {
     grid-template-columns: 0.2fr 0.2fr 0.2fr 0.2fr;
     /* só uma coluna no celular */
   }
 
-  .card {
-    font-size: 180%;
-  }
+  /* .card {
+    font-size: 80%;
+    width: 100%;
+  }*/
 
   .modelo3 {
     width: 35%;
@@ -879,21 +804,23 @@ use modificadores*/
   }
 
 
-
+  /*  .btn {
+    font-size: 50%;
+  }*/
 
   .inicio {
     width: 75%;
     height: 70%;
-    margin-left: 32px;
+    margin-left: 2rem;
   }
 
   .espaco16 {
-    padding-bottom: 14px;
+    padding-bottom: 1.3rem;
   }
 
   .verb {
-    width: 40%;
-    font-size: 80%;
+    width: 50%;
+    /*    font-size: 78%;*/
 
   }
 
@@ -912,7 +839,7 @@ use modificadores*/
   td,
   tr {
     display: block;
-    font-size: 95%;
+    /*    font-size: 95%;*/
   }
 
   thead {
@@ -921,9 +848,9 @@ use modificadores*/
   }
 
   tr {
-    margin-bottom: 15px;
-    border: 1px solid #ddd;
-    border-radius: 8px;
+    margin-bottom: 1rem;
+    border: 0.1rem solid #ddd;
+    border-radius: 0.5rem;
   }
 
   td {
@@ -936,7 +863,7 @@ use modificadores*/
   td::before {
     content: attr(data-label);
     position: absolute;
-    left: 10px;
+    left: 0.6rem;
     font-weight: bold;
     white-space: nowrap;
   }
@@ -968,6 +895,11 @@ use modificadores*/
     width: 80%;
   }
 
+  .linha-separadora {
+
+    width: 100%;
+  }
+
   .par9 {
     width: 75%;
     font-size: 70%;
@@ -979,19 +911,19 @@ use modificadores*/
 
   .par {
     font-size: 80%;
-    /* 80%*/
+
 
   }
 
-  .par12 {
+  */ .par12 {
     font-size: 80%;
-    padding-bottom: 15px;
+    padding-bottom: 1rem;
 
   }
 
   .par13 {
     font-size: 80%;
-    padding-bottom: 15px;
+    padding-bottom: 1rem;
   }
 
   h2 {
@@ -1012,9 +944,6 @@ use modificadores*/
     width: 95%;
   }
 
-  .content2 {
-    width: 50%;
-  }
 
   .content6 {
     width: 100%;
@@ -1062,7 +991,7 @@ use modificadores*/
   }
 
   .espaco17 {
-    padding-bottom: 30px;
+    padding-bottom: 1.9rem;
   }
 
   .titulo {
@@ -1086,7 +1015,7 @@ use modificadores*/
     font-size: 90%;
   }
 
-  footer {
+  */ footer {
     margin-top: 3rem;
   }
 
@@ -1099,9 +1028,9 @@ use modificadores*/
     /* só uma coluna no celular */
   }
 
-  .card {
+  /*  .card {
     font-size: 180%;
-  }
+  }*/
 
   .modelo3 {
     width: 55%;
@@ -1113,12 +1042,14 @@ use modificadores*/
     height: auto;
   }
 
-
+  .btn {
+    font-size: 70%;
+  }
 
   .inicio {
     width: 75%;
     height: 70%;
-    margin-left: 32px;
+    margin-left: 2rem;
   }
 
   .verb {
@@ -1150,9 +1081,9 @@ use modificadores*/
   }
 
   tr {
-    margin-bottom: 15px;
-    border: 1px solid #ddd;
-    border-radius: 8px;
+    margin-bottom: 1rem;
+    border: 0.1rem solid #ddd;
+    border-radius: 0.5rem;
   }
 
   td {
@@ -1165,7 +1096,7 @@ use modificadores*/
   td::before {
     content: attr(data-label);
     position: absolute;
-    left: 10px;
+    left: 0.6rem;
     font-weight: bold;
     white-space: nowrap;
   }
