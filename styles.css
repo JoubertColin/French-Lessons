@@ -668,7 +668,7 @@ use modificadores*/
 
 
 
-@supports (padding: env(safe-area-inset-left)) {
+/*@supports (padding: env(safe-area-inset-left)) {
   header, footer {
     padding-left: env(safe-area-inset-left);
     padding-right: env(safe-area-inset-right);
