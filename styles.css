@@ -761,7 +761,7 @@ use modificadores*/
   }
 
   h2 {
-    /*  font-size: 160%;*/
+    /*  font-size: 160%;
     margin: 1rem 0;
   }
 
@@ -789,7 +789,7 @@ use modificadores*/
 
   .container {
     grid-template-columns: 0.2fr 0.2fr 0.2fr 0.2fr;
-    /* só uma coluna no celular */
+    /* só uma coluna no celular 
   }
 
   /* .card {
