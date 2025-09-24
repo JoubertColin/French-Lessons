@@ -681,7 +681,7 @@ use modificadores*/
 
 /*tablets*/
 
-@media only screen and (min-width: 447px) and (max-width: 1024px) {
+/*@media only screen and (min-width: 447px) and (max-width: 1024px) {
 
 
  /* #main-area {
@@ -992,7 +992,7 @@ use modificadores*/
 
   /*  .card {
     font-size: 180%;
-  }*/
+  }
 
    #main-area {
     width: 100%;
@@ -1136,12 +1136,12 @@ use modificadores*/
 
   .container {
     grid-template-columns: 0.2fr 0.2fr;
-    /* só uma coluna no celular */
+    /* só uma coluna no celular 
   }
 
   /*  .card {
     font-size: 180%;
-  }*/
+  }
 
   .modelo3 {
     width: 55%;
@@ -1178,7 +1178,7 @@ use modificadores*/
 
 
 
-  /*   Tabela Responsiva */
+  /*   Tabela Responsiva 
 
   table,
   thead,
@@ -1187,12 +1187,12 @@ use modificadores*/
   td,
   tr {
     display: block;
-    /*    font-size: 95%;*/
+    /*    font-size: 95%;
   }
 
   thead {
     display: none;
-    /* esconde cabeçalho */
+    /* esconde cabeçalho 
   }
 
   tr {
