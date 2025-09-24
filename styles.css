@@ -685,13 +685,13 @@ use modificadores*/
 @media only screen and (min-width: 460px) and (max-width: 1024px) {
 
 
-  #main-area {
+/*  #main-area {
     width: 100%;
   }
 
   /*  .par33 {
     font-size: 90%;
-  }*/
+  }
 
   .par {
     font-size: 50%;
@@ -722,17 +722,17 @@ use modificadores*/
 
   .content33 {
     width: 100%;
-    /*  font-size: 80%;*/
+    /*  font-size: 80%;
   }
 
   .content36 {
     width: 100%;
-    /*   font-size: 80%;*/
+    /*   font-size: 80%;
   }
 
   .content37 {
     width: 20%;
-    /*   font-size: 80%;*/
+    /*   font-size: 80%;
   }
 
 
@@ -763,7 +763,7 @@ use modificadores*/
   }
 
   h2 {
-    /*  font-size: 160%;*/
+    /*  font-size: 160%;
     margin: 1rem 0;
   }
 
@@ -779,7 +779,7 @@ use modificadores*/
 
   footer p {
     font-size: 90%;
-  }*/
+  }
 
   footer {
     margin-top: 3rem;
@@ -787,17 +787,17 @@ use modificadores*/
 
   /*  #menu-area a {
     font-size: 90%;
-  }*/
+  }
 
   .container {
     grid-template-columns: 0.2fr 0.2fr 0.2fr 0.2fr;
-    /* só uma coluna no celular */
+    /* só uma coluna no celular 
   }
 
   /* .card {
     font-size: 80%;
     width: 100%;
-  }*/
+  }
 
   .modelo3 {
     width: 35%;
@@ -818,7 +818,7 @@ use modificadores*/
 
   /*  .btn {
     font-size: 50%;
-  }*/
+  }
 
   .inicio {
     width: 75%;
@@ -832,7 +832,7 @@ use modificadores*/
 
   .verb {
     width: 50%;
-    /*    font-size: 78%;*/
+    /*    font-size: 78%;
 
   }
 
