@@ -701,7 +701,7 @@ use modificadores*/
   .par12 {
     font-size: 80%;
     padding-bottom: 0;
-  }
+  }*/
 
   .content {
     width: 100%;
@@ -743,8 +743,8 @@ use modificadores*/
 
 
 
-  .content-blocks {
-    width: 90%;
+  /*.content-blocks {
+    width: 100%;
   }/*
 
   .content-blocks2 {
