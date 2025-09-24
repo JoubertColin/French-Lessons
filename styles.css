@@ -683,11 +683,17 @@ use modificadores*/
 /*tablets*/
 
 @media only screen and (min-width: 460px) and (max-width: 1024px) {
+/*Limpar formatações padrão*/
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
   #main-area {
     width: 100%;
-  }
+}
 
   /*  .par33 {
     font-size: 90%;
