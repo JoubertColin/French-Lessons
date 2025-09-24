@@ -684,13 +684,13 @@ use modificadores*/
 @media only screen and (min-width: 447px) and (max-width: 1024px) {
 
 
-  #main-area {
+ /* #main-area {
     width: 100%;
   }
 
   /*  .par33 {
     font-size: 90%;
-  }*/
+  }
 
   .par {
     font-size: 80%;
@@ -718,7 +718,7 @@ use modificadores*/
   .content33 {
     width: 100%;
     /*  font-size: 80%;
-  }*/
+  }
 
   .content36 {
     width: 90%;
@@ -734,7 +734,7 @@ use modificadores*/
   .linha-separadora {
 
     width: 100%;
-  }*/
+  }
 
 
 
@@ -744,7 +744,7 @@ use modificadores*/
 
  /* .content-blocks2 {
     width: 80%;
-  }*/
+  }
 
   .content-blocks6 {
     width: 100%;
@@ -844,6 +844,187 @@ use modificadores*/
     padding-left: env(safe-area-inset-left);      /* suporte novo */
   /*  padding-right: env(safe-area-inset-right);
   }
+
+  #main-area {
+    width: 100%;
+  }
+
+  .content-blocks2 {
+    width: 80%;
+  }
+
+  .content-blocks6 {
+    width: 90%;
+  }
+
+  .content-blocks26 {
+    width: 80%;
+  }
+
+  .content-blocks25 {
+    width: 80%;
+  }
+
+  .linha-separadora {
+
+    width: 100%;
+  }
+
+  .par9 {
+    width: 75%;
+    font-size: 70%;
+  }
+
+  .par33 {
+    font-size: 90%;
+  }
+
+  .par {
+    font-size: 80%;
+  }
+
+  .par13 {
+    font-size: 80%;
+    padding-bottom: 1rem;
+  }
+
+  h2 {
+    font-size: 145%;
+  }
+
+  .content {
+    width: 100%;
+
+  }
+
+  .content-blocks {
+    width: 90%;
+
+  }
+
+  .content-blocks45 {
+    width: 95%;
+  }
+
+
+  .content6 {
+    width: 100%;
+  }
+
+  .content50 {
+    width: 100%;
+  }
+
+  .fundo {
+    font-size: 80%;
+  }
+
+  .fone {
+    font-size: 80%;
+    font-weight: bold;
+  }
+
+  .content33 {
+    width: 100%;
+    font-size: 80%;
+  }
+
+  .content36 {
+    width: 100%;
+    font-size: 80%;
+    text-align: left;
+  }
+
+  .content37 {
+    width: 37%;
+    font-size: 80%;
+  }
+
+  .modelo5 {
+    width: 30%;
+  }
+
+  .modelo4 {
+    width: 55%;
+  }
+
+  #header-area {
+    width: 100%;
+  }
+
+  .espaco17 {
+    padding-bottom: 1.9rem;
+  }
+
+  .titulo {
+
+    font-size: 140%;
+  }
+
+
+
+
+  h1 {
+    font-size: 180%;
+  }
+
+
+  h5 {
+    font-size: 100%;
+  }
+
+  footer p {
+    font-size: 90%;
+  }
+
+  footer {
+    margin-top: 3rem;
+  }
+
+  #menu-area a {
+    font-size: 90%;
+  }
+
+  .container {
+    grid-template-columns: 0.2fr 0.2fr;
+    /* só uma coluna no celular */
+  }
+
+  /*  .card {
+    font-size: 180%;
+  }*/
+
+  .modelo3 {
+    width: 55%;
+    height: 55%;
+  }
+
+  .imagem-02 {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .btn {
+    font-size: 70%;
+  }
+
+  .inicio {
+    width: 75%;
+    height: 70%;
+    margin-left: 2rem;
+  }
+
+  .verb {
+    width: 70%;
+    font-size: 80%;
+  }
+
+  .video {
+    width: 70%;
+    height: 75%;
+  }
+
+
 
   
 
