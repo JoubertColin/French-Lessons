@@ -681,7 +681,7 @@ use modificadores*/
 
 /*tablets*/
 
-@media only screen and (min-width: 460px) and (max-width: 1024px) {
+/*@media only screen and (min-width: 460px) and (max-width: 1024px) {
 
 
   #main-area {
@@ -693,7 +693,7 @@ use modificadores*/
   }
   .content-blocks {
     width: 80%;
-}
+}*/
 
 @media (max-width: 450px) {
 
