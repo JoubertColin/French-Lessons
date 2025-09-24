@@ -406,7 +406,15 @@ div {
   padding-left: 1em;
 }
 
-footer {
+header, footer {
+  width: 100%;
+  padding-left: constant(safe-area-inset-left); /* suporte antigo */
+  padding-right: constant(safe-area-inset-right);
+  padding-left: env(safe-area-inset-left);      /* suporte novo */
+  padding-right: env(safe-area-inset-right);
+
+}
+.rodape {
   background: #3C7E99;
   color: #FFF9E9;
   text-align: center;
