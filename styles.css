@@ -619,7 +619,7 @@ footer {
 .correta {
   justify-content: top;
   text-align: top;
-  font-size: 23px;
+  font-size: 27px;
   color: green !important;
   background-color: transparent;
   margin-bottom: 15px;
@@ -1369,7 +1369,7 @@ use modificadores*/
 
 
   .correta {
-    font-size: 1.7rem;
+    font-size: 1.3rem;
   }
 
   .errada {
