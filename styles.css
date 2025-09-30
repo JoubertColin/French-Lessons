@@ -920,7 +920,7 @@ use modificadores*/
 
 
   #main-area {
-    width: 90%;
+    width: 100%;
   }
 
   /*  .par33 {
@@ -989,9 +989,9 @@ use modificadores*/
 
 
 
-  /*.content-blocks {
+  .content-blocks {
     width: 90%;
-  }*/
+  }
 
   .content-blocks2 {
     width: 80%;
