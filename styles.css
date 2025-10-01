@@ -919,7 +919,7 @@ use modificadores*/
 @media only screen and (min-width: 447px) and (max-width: 1024px) {
 
 
-  #main-area {
+ /* #main-area {
     width: 100%;
   }
 
@@ -934,7 +934,7 @@ use modificadores*/
 
   .correta {
     font-size: 1rem;
-  }*/
+  }*
 
   .content {
     width: 100%;
@@ -963,12 +963,12 @@ use modificadores*/
   .content33 {
     width: 100%;
     /*  font-size: 80%;
-  }*/
+  }
 
   .content36 {
     width: 100%;
     /*   font-size: 80%;
-    margin-left: 18px;*/
+    margin-left: 18px;
   }
 
   /*
@@ -994,7 +994,7 @@ use modificadores*/
   .linha-separadora {
 
     width: 100%;
-  }*/
+  }
 
 
 
@@ -1006,7 +1006,7 @@ use modificadores*/
 
   .content-blocks2 {
     width: 80%;
-  }*/
+  }
 
   .content-blocks6 {
     width: 90%;
