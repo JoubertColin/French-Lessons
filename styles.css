@@ -1065,12 +1065,12 @@ use modificadores*/
   .container {
     grid-template-columns: 0.2fr 0.2fr 0.2fr 0.2fr;
     /* só uma coluna no celular */
-  }
+  }/*
 
    .card {
     font-size: 80%;
     width: 100%;
-  }
+  }*/
 
 
   .container2 {
