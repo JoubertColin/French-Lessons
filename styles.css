@@ -1060,12 +1060,12 @@ use modificadores*/
 
     #menu-area a {
     font-size: 90%;
-  }
+  }/*
 
   .container {
     grid-template-columns: 0.2fr 0.2fr 0.2fr 0.2fr;
-    /* só uma coluna no celular */
-  }/*
+    /* só uma coluna no celular 
+  }
 
    .card {
     font-size: 80%;
