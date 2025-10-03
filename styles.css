@@ -6,7 +6,9 @@
   box-sizing: border-box;
 }
 
-
+html {
+  -webkit-text-size-adjust: 100%; /* ou 'none' */
+}
 /***** Layout *****/
 
 body {
