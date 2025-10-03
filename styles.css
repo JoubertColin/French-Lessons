@@ -1041,17 +1041,17 @@ use modificadores*/
   }
 
 
-  /*  header,
+    header,
   footer {
     width: 100%;
     padding-left: constant(safe-area-inset-left);
-    /* suporte antigo 
+    /* suporte antigo */
     padding-right: constant(safe-area-inset-right);
     padding-left: env(safe-area-inset-left);
-    /* suporte novo 
+    /* suporte novo */
     padding-right: env(safe-area-inset-right);
     background-color: #000;
-  }*/
+  }
 
 
   footer {
@@ -1335,17 +1335,17 @@ use modificadores*/
     font-size: 140%;
   }
 
-  header,
+  /*header,
   footer {
     width: 100%;
     padding-left: constant(safe-area-inset-left);
-    /* suporte antigo */
+    /* suporte antigo 
     padding-right: constant(safe-area-inset-right);
     padding-left: env(safe-area-inset-left);
-    /* suporte novo */
+    /* suporte novo 
     padding-right: env(safe-area-inset-right);
     background-color: #000;
-  }
+  }*/
 
 
 
