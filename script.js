@@ -44,7 +44,7 @@ function verificarResposta(idInput) {
   const feedback = document.getElementById("fb" + idInput.replace("resp", ""));
 
   if (resposta === correta && resposta !== "") {
-    feedback.textContent = "✔(U+2714 + U+FE0E)";
+    feedback.textContent = "&#x2714;&#xFE0E;";
     feedback.className = "feedback certo";
   } else {
     feedback.textContent = "✘";
