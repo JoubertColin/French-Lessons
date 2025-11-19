@@ -1652,7 +1652,7 @@ li.selected {
   font-weight: 600;
   display: block;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   margin: auto;
   margin-bottom: 1rem;
   margin-top: 0.7rem;
