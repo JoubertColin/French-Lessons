@@ -2152,7 +2152,7 @@ use modificadores*/
   .container10 {
     grid-template-columns: 0.25fr 0.25fr;
     /* só uma coluna no celular */
-    gap: 0;
+    gap: 1rem;
 
   }
 
