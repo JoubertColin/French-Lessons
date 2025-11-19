@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+
+<head>
+    
+    <title>Le français pour tous les âges!</title>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&family=Vast+Shadow&display=swap');
+    </style>
+
+</head>
+
+<body>
+    
+    <header id="header-area">
+
+        <div id="logo-area">
+            <h1>Classe 04</h1>
+        </div>
+
+        <nav id="menu-area">
+            <a href="index.html">Home</a>
+            <a href="classes.html">Classes</a>
+            <a href="supplementaire.html">Supplémentaire</a>
+            <a href="chansons.html">Chansons</a>
+        </nav>
+
+    </header>
+
+    <main id="main-area">
+
+        <div class="content-blocks">
+            <nav>
+                <div>
+                    <img class="imagem-02" width="600px" height="250px" src="imagens/1.jpg">
+                </div>
+            </nav>
+        </div>
+
+                    <div class="content-blocks">                   
+         
+                    <h2>Conjugaison des Verbes !</h2>
+                    <img class="elemento-clicavel img-audio" width="16px" height="16px" src="imagens/som91.png" data-audio="sons/frase_331.mp3" alt="Imagem 1">
+
+            </div>
+
+        <div class="content-blocks espaco21">
+            <div class="content">
+                <p class="par18 negrito">I-</p>                
+                <p class="par negrito esquerda">Remplissez les conjugaisons des verbes aimer, adorer, penser et trouver:</p>
+                <img class="elemento-clicavel img-audio" width="16px" height="16px" src="imagens/som91.png" data-audio="sons/frase_332.mp3" alt="Imagem 1">
+            </div>
+        </div>
+
+        <section class="container5">    
+
+
+
+            <table>
+                <tbody>               
+                    <tr class="table2">
+                        <td class="flex centro2 recuo negrito fundo2">Aim<span style="color: red;"><u>er</u></span><img class="elemento-clicavel img-audio" width="16px" height="16px" src="imagens/som91.png" data-audio="sons/frase_333.mp3" alt="Imagem 1"></td>
+                    </tr> 
+
+                    
+                </tbody>               
+                <tbody>
+                    <tr class="table2">
+                        <td class="flex recuo"><strong>J'</strong>aim<span style="color: red;"><strong><u>e</u></strong></span><img class="elemento-clicavel img-audio" width="16px" height="16px" src="imagens/som91.png" data-audio="sons/frase_334.mp3" alt="Imagem 1"></td>
+                    </tr>
+                    <tr class="table2">     
+                        <td class="flex recuo"><strong>Tu&nbsp;</strong>aim<span style="color: red;"><strong><u>es</u></strong></span><img class="elemento-clicavel img-audio" width="16px" height="16px" src="imagens/som91.png" data-audio="sons/frase_335.mp3" alt="Imagem 1"></td>
+                    </tr>  
+                    <tr class="table2">   
+                        <td class="flex recuo">
+                            <label for="resp1"><strong>Il/elle/on&nbsp;</strong></label><br>
+                            <input id="resp1" class="modelo7" type="text" placeholder="Écrivez" data-correta="Aime">
+                            <button class="btn" onclick="verificarResposta('resp1')"> <img width="18px" height="18px" src="imagens/enter.png" alt="Descrição da imagem"></button>
+                            <span class="feedback" id="fb1"></span>
+                            <img class="elemento-clicavel img-audio" width="16px" height="16px" src="imagens/som91.png" data-audio="sons/frase_336.mp3" alt="Imagem 1">
+                        </td>
+                    </tr>
+                    <tr class="table2">   
+                        <td class="flex recuo">
+                            <label for="resp2"><strong>Nous&nbsp;</strong></label><br>
+                            <input id="resp2" class="modelo7" type="text" placeholder="Écrivez" data-correta="Aimons">
+                            <button class="btn " onclick="verificarResposta('resp2')"> <img width="18px" height="18px" src="imagens/enter.png" alt="Descrição da imagem"></button>
+                            <span class="feedback" id="fb2"></span>
+                            <img class="elemento-clicavel img-audio" width="16px" height="16px" src="imagens/som91.png" data-audio="sons/frase_337.mp3" alt="Imagem 1">
+                        </td>
+                    </tr>
+                    <tr class="table2">     
+                        <td class="flex recuo"><strong>Vous&nbsp;</strong>aim<span style="color: red;"><strong><u>ez</u></strong></span><img class="elemento-clicavel img-audio" width="16px" height="16px" src="imagens/som91.png" data-audio="sons/frase_338.mp3" alt="Imagem 1"></td>
+                    </tr>  
+                    <tr class="table2">   
+                        <td class="flex recuo">
+                            <label for="resp3"><strong>Ils/elles&nbsp;</strong></label><br>
+                            <input id="resp3" class="modelo7" type="text" placeholder="Écrivez" data-correta="Aiment">
+                            <button class="btn " onclick="verificarResposta('resp3')"> <img width="18px" height="18px" src="imagens/enter.png" alt="Descrição da imagem"></button>
+                            <span class="feedback" id="fb3"></span>
+                            <img class="elemento-clicavel img-audio" width="16px" height="16px" src="imagens/som91.png" data-audio="sons/frase_339.mp3" alt="Imagem 1">
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <table>
+                <tbody>
+                    <tr class="table2">
+                        <td class="flex centro2 recuo negrito fundo2">Ador<span style="color: red;"><u>er</u></span><img class="elemento-clicavel img-audio" width="16px" height="16px" src="imagens/som91.png" data-audio="sons/frase_340.mp3" alt="Imagem 1"></td>
+                    </tr>
+                </tbody>
+                <tbody>
+                    <tr class="table2">
+                        <td class="flex recuo"><strong>J'</strong>ador<span style="color: red;"><strong><u>e</u></strong></span><img class="elemento-clicavel img-audio" width="16px" height="16px" src="imagens/som91.png" data-audio="sons/frase_341.mp3" alt="Imagem 1"></td>
+                    </tr>
+                    <tr class="table2">   
+                        <td class="flex recuo">
+                            <label for="resp4"><strong>Tu&nbsp;</strong></label><br>
+                            <input id="resp4" class="modelo7" type="text" placeholder="Écrivez" data-correta="Adores">
+                            <button class="btn " onclick="verificarResposta('resp4')"> <img width="18px" height="18px" src="imagens/enter.png" alt="Descrição da imagem"></button>
+                            <span class="feedback" id="fb4"></span>
+                            <img class="elemento-clicavel img-audio" width="16px" height="16px" src="imagens/som91.png" data-audio="sons/frase_342.mp3" alt="Imagem 1">
+                        </td>
+                    </tr>
+                    <tr class="table2">   
+                        <td class="flex recuo">
+                            <label for="resp5"><strong>Il/elle/on&nbsp;</strong></label><br>
+                            <input id="resp5" class="modelo7" type="text" placeholder="Écrivez" data-correta="Adore">
+                            <button class="btn " onclick="verificarResposta('resp5')"> <img width="18px" height="18px" src="imagens/enter.png" alt="Descrição da imagem"></button>
+                            <span class="feedback" id="fb5"></span>
+                            <img class="elemento-clicavel img-audio" width="16px" height="16px" src="imagens/som91.png" data-audio="sons/frase_343.mp3" alt="Imagem 1">
+                        </td>
+                    </tr>
+                    <tr class="table2">   
+                        <td class="flex recuo">
+                            <label for="resp6"><strong>Nous&nbsp;</strong></label><br>
+                            <input id="resp6" class="modelo7" type="text" placeholder="Écrivez" data-correta="Adorons">
+                            <button class="btn " onclick="verificarResposta('resp6')"> <img width="18px" height="18px" src="imagens/enter.png" alt="Descrição da imagem"></button>
+                            <span class="feedback" id="fb6"></span>
+                            <img class="elemento-clicavel img-audio" width="16px" height="16px" src="imagens/som91.png" data-audio="sons/frase_344.mp3" alt="Imagem 1">
+                        </td>
+                    </tr>
+                    <tr class="table2">   
+                        <td class="flex recuo">
+                            <label for="resp7"><strong>Vous&nbsp;</strong></label><br>
+                            <input id="resp7" class="modelo7" type="text" placeholder="Écrivez" data-correta="Adorez">
+                            <button class="btn " onclick="verificarResposta('resp7')"> <img width="18px" height="18px" src="imagens/enter.png" alt="Descrição da imagem"></button>
+                            <span class="feedback" id="fb7"></span>
+                            <img class="elemento-clicavel img-audio" width="16px" height="16px" src="imagens/som91.png" data-audio="sons/frase_345.mp3" alt="Imagem 1">
+                        </td>
+                    </tr>
+                    <tr class="table2">
+                        <td class="flex recuo"><strong>Ils/elles&nbsp;</strong>ador<span style="color: red;"><strong><u>ent</u></strong></span><img class="elemento-clicavel img-audio" width="16px" height="16px" src="imagens/som91.png" data-audio="sons/frase_346.mp3" alt="Imagem 1"></td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <table>
+                <tbody>
+                    <tr class="table2">
+                        <td class="flex centro2 recuo negrito fundo2">Pens<span style="color: red;"><u>er</u></span><img class="elemento-clicavel img-audio" width="16px" height="16px" src="imagens/som91.png" data-audio="sons/frase_347.mp3" alt="Imagem 1"></td>
+                    </tr>
+
+                    
+                </tbody>
+                <tbody>
+                    <tr class="table2">
+                        <td class="flex recuo"><strong>Je&nbsp;</strong>pens<span style="color: red;"><strong><u>e</u></strong></span><img class="elemento-clicavel img-audio" width="16px" height="16px" src="imagens/som91.png" data-audio="sons/frase_348.mp3" alt="Imagem 1"></td>
+                    </tr>
+                    <tr class="table2">   
+                        <td class="flex recuo">
+                            <label for="resp8"><strong>Tu&nbsp;</strong></label><br>
+                            <input id="resp8" class="modelo7" type="text" placeholder="Écrivez" data-correta="Penses">
+                            <button class="btn " onclick="verificarResposta('resp8')"> <img width="18px" height="18px" src="imagens/enter.png" alt="Descrição da imagem"></button>
+                            <span class="feedback" id="fb8"></span>
+                            <img class="elemento-clicavel img-audio" width="16px" height="16px" src="imagens/som91.png" data-audio="sons/frase_349.mp3" alt="Imagem 1">
+                        </td>
+                    </tr>
+                    <tr class="table2">     
+                        <td class="flex recuo"><strong>Il/elle/on&nbsp;</strong>pens<span style="color: red;"><strong><u>e</u></strong></span><img class="elemento-clicavel img-audio" width="16px" height="16px" src="imagens/som91.png" data-audio="sons/frase_350.mp3" alt="Imagem 1"></td>
+                    </tr>  
+                    <tr class="table2">     
+                        <td class="flex recuo"><strong>Nous&nbsp;</strong>pens<span style="color: red;"><strong><u>ons</u></strong></span><img class="elemento-clicavel img-audio" width="16px" height="16px" src="imagens/som91.png" data-audio="sons/frase_351.mp3" alt="Imagem 1"></td>
+                    </tr>  
+                    <tr class="table2">   
+                        <td class="flex recuo">
+                            <label for="resp9"><strong>Vous&nbsp;</strong></label><br>
+                            <input id="resp9" class="modelo7" type="text" placeholder="Écrivez" data-correta="Pensez">
+                            <button class="btn " onclick="verificarResposta('resp9')"> <img width="18px" height="18px" src="imagens/enter.png" alt="Descrição da imagem"></button>
+                            <span class="feedback" id="fb9"></span>
+                            <img class="elemento-clicavel img-audio" width="16px" height="16px" src="imagens/som91.png" data-audio="sons/frase_352.mp3" alt="Imagem 1">
+                        </td>
+                    </tr>
+                    <tr class="table2">   
+                        <td class="flex recuo">
+                            <label for="resp10"><strong>Ils/elles&nbsp;</strong></label><br>
+                            <input id="resp10" class="modelo7" type="text" placeholder="Écrivez" data-correta="Pensent">
+                            <button class="btn " onclick="verificarResposta('resp10')"> <img width="18px" height="18px" src="imagens/enter.png" alt="Descrição da imagem"></button>
+                            <span class="feedback" id="fb10"></span>
+                            <img class="elemento-clicavel img-audio" width="16px" height="16px" src="imagens/som91.png" data-audio="sons/frase_353.mp3" alt="Imagem 1">
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <table>
+                <tbody>
+                    <tr class="table2">
+                        <td class="flex centro2 recuo negrito fundo2">Trouv<span style="color: red;"><u>er</u></span><img class="elemento-clicavel img-audio" width="16px" height="16px" src="imagens/som91.png" data-audio="sons/frase_354.mp3" alt="Imagem 1"></td>
+                    </tr>
+                </tbody>
+                <tbody>
+                    <tr class="table2">
+                        <td class="flex recuo"><strong>Je&nbsp;</strong>trouv<span style="color: red;"><strong><u>e</u></strong></span><img class="elemento-clicavel img-audio" width="16px" height="16px" src="imagens/som91.png" data-audio="sons/frase_355.mp3" alt="Imagem 1"></td>
+                    </tr>
+                    <tr class="table2">   
+                        <td class="flex recuo">
+                            <label for="resp11"><strong>Tu&nbsp;</strong></label><br>
+                            <input id="resp11" class="modelo7" type="text" placeholder="Écrivez" data-correta="Trouves">
+                            <button class="btn " onclick="verificarResposta('resp11')"> <img width="18px" height="18px" src="imagens/enter.png" alt="Descrição da imagem"></button>
+                            <span class="feedback" id="fb11"></span>
+                            <img class="elemento-clicavel img-audio" width="16px" height="16px" src="imagens/som91.png" data-audio="sons/frase_356.mp3" alt="Imagem 1">
+                        </td>
+                    </tr>
+                    <tr class="table2">   
+                        <td class="flex recuo">
+                            <label for="resp12"><strong>Il/elle/on&nbsp;</strong></label><br>
+                            <input id="resp12" class="modelo7" type="text" placeholder="Écrivez" data-correta="Trouve">
+                            <button class="btn " onclick="verificarResposta('resp12')"> <img width="18px" height="18px" src="imagens/enter.png" alt="Descrição da imagem"></button>
+                            <span class="feedback" id="fb12"></span>
+                            <img class="elemento-clicavel img-audio" width="16px" height="16px" src="imagens/som91.png" data-audio="sons/frase_357.mp3" alt="Imagem 1">
+                        </td>
+                    </tr>
+                    <tr class="table2">   
+                        <td class="flex recuo">
+                            <label for="resp13"><strong>Nous&nbsp;</strong></label><br>
+                            <input id="resp13" class="modelo7" type="text" placeholder="Écrivez" data-correta="Trouvons">
+                            <button class="btn " onclick="verificarResposta('resp13')"> <img width="18px" height="18px" src="imagens/enter.png" alt="Descrição da imagem"></button>
+                            <span class="feedback" id="fb13"></span>
+                            <img class="elemento-clicavel img-audio" width="16px" height="16px" src="imagens/som91.png" data-audio="sons/frase_358.mp3" alt="Imagem 1">
+                        </td>
+                    </tr>
+                    <tr class="table2">   
+                        <td class="flex recuo">
+                            <label for="resp14"><strong>Vous&nbsp;</strong></label><br>
+                            <input id="resp14" class="modelo7" type="text" placeholder="Écrivez" data-correta="Trouvez">
+                            <button class="btn " onclick="verificarResposta('resp14')"> <img width="18px" height="18px" src="imagens/enter.png" alt="Descrição da imagem"></button>
+                            <span class="feedback" id="fb14"></span>
+                            <img class="elemento-clicavel img-audio" width="16px" height="16px" src="imagens/som91.png" data-audio="sons/frase_359.mp3" alt="Imagem 1">
+                        </td>
+                    </tr>
+                    <tr class="table2">   
+                        <td class="flex recuo">
+                            <label for="resp15"><strong>Ils/elles&nbsp;</strong></label><br>
+                            <input id="resp15" class="modelo7" type="text" placeholder="Écrivez" data-correta="Trouvent">
+                            <button class="btn " onclick="verificarResposta('resp15')"> <img width="18px" height="18px" src="imagens/enter.png" alt="Descrição da imagem"></button>
+                            <span class="feedback" id="fb15"></span>
+                            <img class="elemento-clicavel img-audio" width="16px" height="16px" src="imagens/som91.png" data-audio="sons/frase_360.mp3" alt="Imagem 1">
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </section>
+
+        <section>
+
+            <div class="content-blocks espaco4">
+                <div class="content">
+                    <p class="par18 negrito">II-</p>                
+                    <p class="par negrito esquerda">À l'aide des réponses de l'exercice III, décrivez les œuvres de Jay Lynn Gomez:</p>
+                    <img class="elemento-clicavel img-audio" width="16px" height="16px" src="imagens/som91.png" data-audio="sons/frase_361.mp3" alt="Imagem 1">
+                </div>
+            </div>
+
+
+        </section>
+
+<section class="container7">      
+
+    <div class="box espaco42 display">
+          <h3 class="espaco7 espaco6">1- Willoughby</h3>
+    <div  class= "denovo">
+        
+
+      <img class="borda4" width="225px" height="225px" src="imagens/willoughby.jpeg" alt="Imagem 1">
+    </div>
+      <ul>
+        <li class="altura-02"><input class="modelo11" type="text" placeholder="Écrivez votre réponse."></li>
+        <li class="altura-02"><input class="modelo11" type="text" placeholder="Écrivez votre réponse."></li>
+        <li class="altura-02"><input class="modelo11" type="text" placeholder="Écrivez votre réponse."></li>
+        <li class="altura-02"><input class="modelo11" type="text" placeholder="Écrivez votre réponse."></li>
+        <li class="altura-02"><input class="modelo11" type="text" placeholder="Écrivez votre réponse."></li>        
+        <li class="altura-02"><input class="modelo11" type="text" placeholder="Écrivez votre réponse."></li>
+      </ul>
+    </div>
+
+     <div class="box espaco42 display">
+          <h3 class="espaco7 espaco6">2- A Conversation Between Three Workers</h3>
+    <div  class= "denovo">
+        
+
+      <img class="borda4" width="225px" height="225px" src="imagens/conversation.jpeg" alt="Imagem 1">
+    </div>
+      <ul>
+        <li class="altura-02"><input class="modelo11" type="text" placeholder="Écrivez votre réponse."></li>
+        <li class="altura-02"><input class="modelo11" type="text" placeholder="Écrivez votre réponse."></li>
+        <li class="altura-02"><input class="modelo11" type="text" placeholder="Écrivez votre réponse."></li>
+        <li class="altura-02"><input class="modelo11" type="text" placeholder="Écrivez votre réponse."></li>
+        <li class="altura-02"><input class="modelo11" type="text" placeholder="Écrivez votre réponse."></li>        
+        <li class="altura-02"><input class="modelo11" type="text" placeholder="Écrivez votre réponse."></li>
+      </ul>
+    </div>
+
+
+     <div class="box espaco42 display">
+          <h3 class="espaco7 espaco6">3- No Splash</h3>
+    <div  class= "denovo">
+        
+
+      <img class="borda4" width="225px" height="225px" src="imagens/no_splash.jpeg" alt="Imagem 1">
+    </div>
+      <ul>
+        <li class="altura-02"><input class="modelo11" type="text" placeholder="Écrivez votre réponse."></li>
+        <li class="altura-02"><input class="modelo11" type="text" placeholder="Écrivez votre réponse."></li>
+        <li class="altura-02"><input class="modelo11" type="text" placeholder="Écrivez votre réponse."></li>
+        <li class="altura-02"><input class="modelo11" type="text" placeholder="Écrivez votre réponse."></li>
+        <li class="altura-02"><input class="modelo11" type="text" placeholder="Écrivez votre réponse."></li>        
+        <li class="altura-02"><input class="modelo11" type="text" placeholder="Écrivez votre réponse."></li>
+      </ul>
+    </div>
+
+
+     <div class="box espaco42 display">
+          <h3 class="espaco7 espaco6">4- Las Meninas</h3>
+    <div  class= "denovo">
+        
+
+      <img class="borda4" width="225px" height="225px" src="imagens/las_meninas.jpeg" alt="Imagem 1">
+    </div>
+      <ul>
+        <li class="altura-02"><input class="modelo11" type="text" placeholder="Écrivez votre réponse."></li>
+        <li class="altura-02"><input class="modelo11" type="text" placeholder="Écrivez votre réponse."></li>
+        <li class="altura-02"><input class="modelo11" type="text" placeholder="Écrivez votre réponse."></li>
+        <li class="altura-02"><input class="modelo11" type="text" placeholder="Écrivez votre réponse."></li>
+        <li class="altura-02"><input class="modelo11" type="text" placeholder="Écrivez votre réponse."></li>        
+        <li class="altura-02"><input class="modelo11" type="text" placeholder="Écrivez votre réponse."></li>
+      </ul>
+    </div>
+
+</section>
+
+
+
+        <section>
+
+            <div class="content-blocks espaco4">
+                <div class="content">
+                    <p class="par18 negrito">III-</p>                
+                    <p class="par negrito esquerda">Reliez la première colonne avec la deuxième colonne pour construire des phrases d'appréciations:</p>
+                    <img class="elemento-clicavel img-audio" width="16px" height="16px" src="imagens/som91.png" data-audio="sons/frase_362.mp3" alt="Imagem 1">
+                </div>
+            </div>
+
+
+        </section>
+<div class="matching-game" data-combinacoes="combinacoes1" data-mostrar="true" style="display:block;">
+<section class="container4">      
+
+    <div class="box espaco42 display">
+      <h3 class="espaco7">Première Colonne</h3>
+      <ul class="list1">
+        <li class="altura-02">Nous aimons<img class="elemento-clicavel img-audio" width="16px" height="16px" src="imagens/som91.png" data-audio="sons/frase_363.mp3" alt="Imagem 1"></li>
+        <li class="altura-02">Je pense que<img class="elemento-clicavel img-audio" width="16px" height="16px" src="imagens/som91.png" data-audio="sons/frase_364.mp3" alt="Imagem 1"></li>
+        <li class="altura-02">J'adore<img class="elemento-clicavel img-audio" width="16px" height="16px" src="imagens/som91.png" data-audio="sons/frase_365.mp3" alt="imagem 1"></li>
+        <li class="altura-02">Nous adorons<img class="elemento-clicavel img-audio" width="16px" height="16px" src="imagens/som91.png" data-audio="sons/frase_366.mp3" alt="imagem 1"></li>
+        <li class="altura-02">Je trouve que<img class="elemento-clicavel img-audio" width="16px" height="16px" src="imagens/som91.png" data-audio="sons/frase_367.mp3" alt="imagem 1"></li>
+        <li class="altura-02">C'est<img class="elemento-clicavel img-audio" width="16px" height="16px" src="imagens/som91.png" data-audio="sons/frase_368.mp3" alt="imagem 1"></li>
+        <li class="altura-02">Nous pensons que<img class="elemento-clicavel img-audio" width="16px" height="16px" src="imagens/som91.png" data-audio="sons/frase_369.mp3" alt="imagem 1"></li>        
+        <li class="altura-02">Ce sont<img class="elemento-clicavel img-audio" width="16px" height="16px" src="imagens/som91.png" data-audio="sons/frase_370.mp3" alt="imagem 1"></li>
+        <li class="altura-02">Nous trouvons que<img class="elemento-clicavel img-audio" width="16px" height="16px" src="imagens/som91.png" data-audio="sons/frase_371.mp3" alt="imagem 1"></li>
+        <li class="altura-02">J'aime<img class="elemento-clicavel img-audio" width="16px" height="16px" src="imagens/som91.png" data-audio="sons/frase_372.mp3" alt="imagem 1"></li>        
+        
+        
+      </ul>
+    </div>
+
+    <div class="box espaco42 display">
+      <h3 class="espaco7">Deuxième Colonne</h3>
+      <ul class="list2">
+        <li class="altura-02">le travail de l'artiste est fascinant.<img class="elemento-clicavel img-audio" width="16px" height="16px" src="imagens/som91.png" data-audio="sons/frase_373.mp3" alt="imagem 1"></li>
+        <li class="altura-02">un tableau coloré.<img class="elemento-clicavel img-audio" width="16px" height="16px" src="imagens/som91.png" data-audio="sons/frase_374.mp3" alt="imagem 1"></li>
+        <li class="altura-02">des œuvres merveilleuses.<img class="elemento-clicavel img-audio" width="16px" height="16px" src="imagens/som91.png" data-audio="sons/frase_375.mp3" alt="imagem 1"></li>
+        <li class="altura-02">l'œuvre est admirable.<img class="elemento-clicavel img-audio" width="16px" height="16px" src="imagens/som91.png" data-audio="sons/frase_376.mp3" alt="imagem 1"></li>
+        <li class="altura-02">l'œuvre est incroyable.<img class="elemento-clicavel img-audio" width="16px" height="16px" src="imagens/som91.png" data-audio="sons/frase_377.mp3" alt="imagem 1"></li>
+        <li class="altura-02">est très intéressant.<img class="elemento-clicavel img-audio" width="16px" height="16px" src="imagens/som91.png" data-audio="sons/frase_378.mp3" alt="imagem 1"></li>
+        <li class="altura-02">le travail de l'artiste.<img class="elemento-clicavel img-audio" width="16px" height="16px" src="imagens/som91.png" data-audio="sons/frase_379.mp3" alt="imagem 1"></li>
+        <li class="altura-02">les créations de l'artiste.<img class="elemento-clicavel img-audio" width="16px" height="16px" src="imagens/som91.png" data-audio="sons/frase_380.mp3" alt="imagem 1"></li>
+        <li class="altura-02">le thème des œuvres.<img class="elemento-clicavel img-audio" width="16px" height="16px" src="imagens/som91.png" data-audio="sons/frase_381.mp3" alt="imagem 1"></li>
+        <li class="altura-02">les couleurs de l'œuvre.<img class="elemento-clicavel img-audio" width="16px" height="16px" src="imagens/som91.png" data-audio="sons/frase_382.mp3" alt="imagem 1"></li>
+
+
+
+      </ul>
+    </div>
+</section>
+
+    <div class="result">
+      <div class="sentence">Cliquez sur un élément de chaque liste pour former une phrase.</div>
+      <div class="controls">
+        <button class="clear padding-controls">Effacer</button>
+        <button class="copy padding-controls">Copier</button>
+      </div>
+    </div>    
+
+    <div class="box frases borda3 espaco40">
+      <h3 class="espaco41">Phrases Correctes.</h3>
+      <ul class="frasesCorretas"></ul>
+    </div>
+    <div class="respostas-corretas"></div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+            <!-- ************************************** -->
+
+
+
+<!--<script>
+  const mostrarFrasesCorretas = true;
+
+
+
+  const combinacoes = [
+    { linha1: 0, linha2: 1, cor: "azul" },
+    { linha1: 0, linha2: 6, cor: "azul" },
+    { linha1: 0, linha2: 7, cor: "azul" },
+    { linha1: 0, linha2: 8, cor: "azul" },
+    { linha1: 0, linha2: 9, cor: "azul" },
+    { linha1: 1, linha2: 0, cor: "yellow-02" },
+    { linha1: 1, linha2: 3, cor: "yellow-02" },
+    { linha1: 1, linha2: 4, cor: "yellow-02" },
+    { linha1: 1, linha2: 5, cor: "yellow-02" },
+    { linha1: 2, linha2: 1, cor: "verde" },
+    { linha1: 2, linha2: 6, cor: "verde" },
+    { linha1: 2, linha2: 7, cor: "verde" },
+    { linha1: 2, linha2: 8, cor: "verde" },
+    { linha1: 2, linha2: 9, cor: "verde" },
+    { linha1: 3, linha2: 1, cor: "roxo" },
+    { linha1: 3, linha2: 6, cor: "roxo" },
+    { linha1: 3, linha2: 7, cor: "roxo" },
+    { linha1: 3, linha2: 8, cor: "roxo" },
+    { linha1: 3, linha2: 9, cor: "roxo" },
+    { linha1: 4, linha2: 0, cor: "gold" },
+    { linha1: 4, linha2: 3, cor: "gold" },
+    { linha1: 4, linha2: 4, cor: "gold" },
+    { linha1: 5, linha2: 1, cor: "cian" },
+    { linha1: 5, linha2: 5, cor: "cian" },
+    { linha1: 5, linha2: 6, cor: "cian" },
+    { linha1: 5, linha2: 8, cor: "cian" },
+    { linha1: 6, linha2: 0, cor: "brown" },
+    { linha1: 6, linha2: 3, cor: "brown" },
+    { linha1: 6, linha2: 4, cor: "brown" },
+    { linha1: 7, linha2: 2, cor: "red-02" },
+    { linha1: 7, linha2: 7, cor: "red-02" },
+    { linha1: 7, linha2: 9, cor: "red-02" },
+    { linha1: 8, linha2: 0, cor: "cinza" },
+    { linha1: 8, linha2: 3, cor: "cinza" },
+    { linha1: 8, linha2: 4, cor: "cinza" },
+    { linha1: 9, linha2: 1, cor: "laranja" },
+    { linha1: 9, linha2: 6, cor: "laranja" },
+    { linha1: 9, linha2: 7, cor: "laranja" },
+    { linha1: 9, linha2: 8, cor: "laranja" },
+    { linha1: 9, linha2: 9, cor: "laranja" }
+  ];
+</script>-->
+
+
+
+            <script src="script.js"></script>
+
+    </main>
+
+    <footer>
+        <p>Il est toujours temps d'apprendre !!!</p>
+    </footer>
+
+</body>
+
+</html>
