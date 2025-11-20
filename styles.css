@@ -173,6 +173,20 @@ h5 {
   box-shadow: 0.rem 0.25rem 0.5rem 0.1rem #0000004d;
 }
 
+.card3 {
+  display: block;
+  padding: 0.25em;
+  border-radius: 0.7rem;
+  text-align: center;
+  font-weight: bold;
+  font-size: 2rem;
+  /*background-color: #FFF7E8;*/
+  width: 4em;
+  height: 4.4em;
+  align-content: center;
+  box-shadow: 0.rem 0.25rem 0.5rem 0.1rem #0000004d;
+}
+
 .letra3 {
   color: black;
   font-weight: initial;
@@ -965,7 +979,7 @@ div {
   width: 100%;
   justify-content: center;
   margin: auto;
-/*  margin-bottom: 0.3em;*/
+  /*  margin-bottom: 0.3em;*/
   align-items: center;
   align-content: center;
 }
@@ -1641,9 +1655,18 @@ li.selected {
   outline: 2px solid var(--accent)
 }
 
+
+.wide10 {
+  width: 10rem;
+}
+
+.wide7 {
+  width: 7rem;
+}
+
 .result {
   width: 50%;
-  grid-column: 1/3;
+  /*grid-column: 1/3;*/
   /*margin-top: 18px;*/
   padding: 6px;
   border-radius: 10px;
@@ -1652,7 +1675,7 @@ li.selected {
   font-weight: 600;
   display: block;
   align-items: center;
-  justify-content: center;
+  /*justify-content: space-between;*/
   margin: auto;
   margin-bottom: 1rem;
   margin-top: 0.7rem;
@@ -2152,7 +2175,7 @@ use modificadores*/
   .container10 {
     grid-template-columns: 0.25fr 0.25fr;
     /* só uma coluna no celular */
-    gap: 1rem;
+    gap: 0.2rem;
 
   }
 
@@ -2168,13 +2191,13 @@ use modificadores*/
   }
 
 
-  .wide10 {
+/*  .wide10 {
     width: 10rem;
   }
 
   .wide7 {
     width: 7rem;
-  }
+  }*/
 
   /*
   .modelo3 {
@@ -2678,13 +2701,13 @@ use modificadores*/
     height: 380px;
   }
 
-  .wide10 {
+/*  .wide10 {
     width: 10rem;
   }
 
   .wide7 {
     width: 7rem;
-  }
+  }*/
 
 
 
@@ -2762,6 +2785,13 @@ use modificadores*/
   .altura-02 {
     height: 48px;
     font-size: 90%;
+
+  }
+
+  .altura-03 {
+    height: 25px;
+    font-size: 90%;
+    padding: 0;
 
   }
 
