@@ -1914,7 +1914,7 @@ use modificadores*/
 
 /*tablets*/
 
-@media only screen and (min-width: 447px) {
+@media only screen and (min-width: 447px) and (max-width: 1140px)  {
 
   .parnew2 {
 
